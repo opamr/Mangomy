@@ -987,6 +987,9 @@
     <EmbeddedResource Include="Vendors\DialogAddVendorPaying.resx">
       <DependentUpon>DialogAddVendorPaying.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogBillDetails.en-PK.resx">
+      <DependentUpon>DialogBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendors\DialogBillDetails.resx">
       <DependentUpon>DialogBillDetails.cs</DependentUpon>
     </EmbeddedResource>
