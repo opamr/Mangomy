@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AbodaDBDataSet" targetNamespace="http://tempuri.org/AbodaDBDataSet.xsd" xmlns:mstns="http://tempuri.org/AbodaDBDataSet.xsd" xmlns="http://tempuri.org/AbodaDBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="AbodaDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AbodaDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MyApplication.Properties.Settings.GlobalReference.Default.AbodaDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TblGoodsTitlesTableAdapter" GeneratorDataComponentClassName="TblGoodsTitlesTableAdapter" Name="TblGoodsTitles" UserDataComponentName="TblGoodsTitlesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AbodaDBConnectionString (Settings)" DbObjectName="ALOuFiDB.dbo.ViewGoods" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ViewGoods.*
+FROM            ViewGoods</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Good_TraidName" DataSetColumn="Good_TraidName" />
+              <Mapping SourceColumn="Good_MinimumCount" DataSetColumn="Good_MinimumCount" />
+              <Mapping SourceColumn="Ctaegory_ID" DataSetColumn="Ctaegory_ID" />
+              <Mapping SourceColumn="Barcode_ID" DataSetColumn="Barcode_ID" />
+              <Mapping SourceColumn="Barcode_Unit" DataSetColumn="Barcode_Unit" />
+              <Mapping SourceColumn="Barcode_PayPrice" DataSetColumn="Barcode_PayPrice" />
+              <Mapping SourceColumn="Category_Id" DataSetColumn="Category_Id" />
+              <Mapping SourceColumn="FirstStore_Amount" DataSetColumn="FirstStore_Amount" />
+              <Mapping SourceColumn="FirstStore_Id" DataSetColumn="FirstStore_Id" />
+              <Mapping SourceColumn="Good_FirstExpiredDate" DataSetColumn="Good_FirstExpiredDate" />
+              <Mapping SourceColumn="Good_English" DataSetColumn="Good_English" />
+              <Mapping SourceColumn="Good_CurrentCount" DataSetColumn="Good_CurrentCount" />
+              <Mapping SourceColumn="Barcode_BuyPrice" DataSetColumn="Barcode_BuyPrice" />
+              <Mapping SourceColumn="Barcode_Count" DataSetColumn="Barcode_Count" />
+              <Mapping SourceColumn="Barcode_Code" DataSetColumn="Barcode_Code" />
+              <Mapping SourceColumn="Category_Name" DataSetColumn="Category_Name" />
+              <Mapping SourceColumn="Store_Name" DataSetColumn="Store_Name" />
+              <Mapping SourceColumn="Titel_Id" DataSetColumn="Titel_Id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AbodaDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="AbodaDBDataSet" msprop:Generator_UserDSName="AbodaDBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TblGoodsTitles" msprop:Generator_TableClassName="TblGoodsTitlesDataTable" msprop:Generator_TableVarName="tableTblGoodsTitles" msprop:Generator_TablePropName="TblGoodsTitles" msprop:Generator_RowDeletingName="TblGoodsTitlesRowDeleting" msprop:Generator_RowChangingName="TblGoodsTitlesRowChanging" msprop:Generator_RowEvHandlerName="TblGoodsTitlesRowChangeEventHandler" msprop:Generator_RowDeletedName="TblGoodsTitlesRowDeleted" msprop:Generator_UserTableName="TblGoodsTitles" msprop:Generator_RowChangedName="TblGoodsTitlesRowChanged" msprop:Generator_RowEvArgName="TblGoodsTitlesRowChangeEvent" msprop:Generator_RowClassName="TblGoodsTitlesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Good_TraidName" msprop:Generator_ColumnVarNameInTable="columnGood_TraidName" msprop:Generator_ColumnPropNameInRow="Good_TraidName" msprop:Generator_ColumnPropNameInTable="Good_TraidNameColumn" msprop:Generator_UserColumnName="Good_TraidName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Good_MinimumCount" msprop:Generator_ColumnVarNameInTable="columnGood_MinimumCount" msprop:Generator_ColumnPropNameInRow="Good_MinimumCount" msprop:Generator_ColumnPropNameInTable="Good_MinimumCountColumn" msprop:Generator_UserColumnName="Good_MinimumCount" type="xs:int" minOccurs="0" />
+              <xs:element name="Ctaegory_ID" msprop:Generator_ColumnVarNameInTable="columnCtaegory_ID" msprop:Generator_ColumnPropNameInRow="Ctaegory_ID" msprop:Generator_ColumnPropNameInTable="Ctaegory_IDColumn" msprop:Generator_UserColumnName="Ctaegory_ID" type="xs:int" />
+              <xs:element name="Barcode_ID" msprop:Generator_ColumnVarNameInTable="columnBarcode_ID" msprop:Generator_ColumnPropNameInRow="Barcode_ID" msprop:Generator_ColumnPropNameInTable="Barcode_IDColumn" msprop:Generator_UserColumnName="Barcode_ID" type="xs:int" />
+              <xs:element name="Barcode_Unit" msprop:Generator_ColumnVarNameInTable="columnBarcode_Unit" msprop:Generator_ColumnPropNameInRow="Barcode_Unit" msprop:Generator_ColumnPropNameInTable="Barcode_UnitColumn" msprop:Generator_UserColumnName="Barcode_Unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_PayPrice" msprop:Generator_ColumnVarNameInTable="columnBarcode_PayPrice" msprop:Generator_ColumnPropNameInRow="Barcode_PayPrice" msprop:Generator_ColumnPropNameInTable="Barcode_PayPriceColumn" msprop:Generator_UserColumnName="Barcode_PayPrice" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Category_Id" msprop:Generator_ColumnVarNameInTable="columnCategory_Id" msprop:Generator_ColumnPropNameInRow="Category_Id" msprop:Generator_ColumnPropNameInTable="Category_IdColumn" msprop:Generator_UserColumnName="Category_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="FirstStore_Amount" msprop:Generator_ColumnVarNameInTable="columnFirstStore_Amount" msprop:Generator_ColumnPropNameInRow="FirstStore_Amount" msprop:Generator_ColumnPropNameInTable="FirstStore_AmountColumn" msprop:Generator_UserColumnName="FirstStore_Amount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FirstStore_Id" msprop:Generator_ColumnVarNameInTable="columnFirstStore_Id" msprop:Generator_ColumnPropNameInRow="FirstStore_Id" msprop:Generator_ColumnPropNameInTable="FirstStore_IdColumn" msprop:Generator_UserColumnName="FirstStore_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Good_FirstExpiredDate" msprop:Generator_ColumnVarNameInTable="columnGood_FirstExpiredDate" msprop:Generator_ColumnPropNameInRow="Good_FirstExpiredDate" msprop:Generator_ColumnPropNameInTable="Good_FirstExpiredDateColumn" msprop:Generator_UserColumnName="Good_FirstExpiredDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Good_English" msprop:Generator_ColumnVarNameInTable="columnGood_English" msprop:Generator_ColumnPropNameInRow="Good_English" msprop:Generator_ColumnPropNameInTable="Good_EnglishColumn" msprop:Generator_UserColumnName="Good_English" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Good_CurrentCount" msprop:Generator_ColumnVarNameInTable="columnGood_CurrentCount" msprop:Generator_ColumnPropNameInRow="Good_CurrentCount" msprop:Generator_ColumnPropNameInTable="Good_CurrentCountColumn" msprop:Generator_UserColumnName="Good_CurrentCount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_BuyPrice" msprop:Generator_ColumnVarNameInTable="columnBarcode_BuyPrice" msprop:Generator_ColumnPropNameInRow="Barcode_BuyPrice" msprop:Generator_ColumnPropNameInTable="Barcode_BuyPriceColumn" msprop:Generator_UserColumnName="Barcode_BuyPrice" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_Count" msprop:Generator_ColumnVarNameInTable="columnBarcode_Count" msprop:Generator_ColumnPropNameInRow="Barcode_Count" msprop:Generator_ColumnPropNameInTable="Barcode_CountColumn" msprop:Generator_UserColumnName="Barcode_Count" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barcode_Code" msprop:Generator_ColumnVarNameInTable="columnBarcode_Code" msprop:Generator_ColumnPropNameInRow="Barcode_Code" msprop:Generator_ColumnPropNameInTable="Barcode_CodeColumn" msprop:Generator_UserColumnName="Barcode_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Category_Name" msprop:Generator_ColumnVarNameInTable="columnCategory_Name" msprop:Generator_ColumnPropNameInRow="Category_Name" msprop:Generator_ColumnPropNameInTable="Category_NameColumn" msprop:Generator_UserColumnName="Category_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Store_Name" msprop:Generator_ColumnVarNameInTable="columnStore_Name" msprop:Generator_ColumnPropNameInRow="Store_Name" msprop:Generator_ColumnPropNameInTable="Store_NameColumn" msprop:Generator_UserColumnName="Store_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titel_Id" msprop:Generator_ColumnVarNameInTable="columnTitel_Id" msprop:Generator_ColumnPropNameInRow="Titel_Id" msprop:Generator_ColumnPropNameInTable="Titel_IdColumn" msprop:Generator_UserColumnName="Titel_Id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

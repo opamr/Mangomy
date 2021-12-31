@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB3F7A28-1A9E-4F34-9FD9-F004BAC8237D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyClasses</RootNamespace>
+    <AssemblyName>MyClasses</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TblBackUp.cs" />
+    <Compile Include="TblBankOperation.cs" />
+    <Compile Include="TblBanks.cs" />
+    <Compile Include="TblBarcodeCountPrint.cs" />
+    <Compile Include="TblBarcodePrint.cs" />
+    <Compile Include="TblCount.cs" />
+    <Compile Include="TblCurrency.cs" />
+    <Compile Include="TblCustomerBillsPayments.cs" />
+    <Compile Include="TblCustomersBills.cs" />
+    <Compile Include="TblCustomersData.cs" />
+    <Compile Include="TblCustomersPaying.cs" />
+    <Compile Include="TblEmployeesBones.cs" />
+    <Compile Include="TblEmployeesData.cs" />
+    <Compile Include="TblEmployeesSalary.cs" />
+    <Compile Include="TblEmployeesSalaryPaying.cs" />
+    <Compile Include="TblGoodsBarcode.cs" />
+    <Compile Include="TblGoodsCategory.cs" />
+    <Compile Include="TblGoodsTitles.cs" />
+    <Compile Include="TblGoodUnits.cs" />
+    <Compile Include="TblMessageArchiveDetails.cs" />
+    <Compile Include="TblMessagePublicNumbers.cs" />
+    <Compile Include="TblMessageTemplates.cs" />
+    <Compile Include="TblMobileMessageArchive.cs" />
+    <Compile Include="TblMoneySources.cs" />
+    <Compile Include="TblOutComingItems.cs" />
+    <Compile Include="TblOutComings.cs" />
+    <Compile Include="TblPrint.cs" />
+    <Compile Include="TblRentPayDetails.cs" />
+    <Compile Include="TblRentPays.cs" />
+    <Compile Include="TblRents.cs" />
+    <Compile Include="TblStoreConvertDetails.cs" />
+    <Compile Include="TblStoreConverts.cs" />
+    <Compile Include="TblStoreReview.cs" />
+    <Compile Include="TblStoreReviewDetails.cs" />
+    <Compile Include="TblStoreReviewSummary.cs" />
+    <Compile Include="TblStores.cs" />
+    <Compile Include="TblUsers.cs" />
+    <Compile Include="TblValidationForUsers.cs" />
+    <Compile Include="TblValidations.cs" />
+    <Compile Include="TblVat.cs" />
+    <Compile Include="TblVendorsBillGoods.cs" />
+    <Compile Include="TblVendorsBills.cs" />
+    <Compile Include="TblVendorsData.cs" />
+    <Compile Include="TblVendorsPaying.cs" />
+    <Compile Include="ViewCustomerBills.cs" />
+    <Compile Include="ViewCustomerPaying.cs" />
+    <Compile Include="ViewCustomerPayments.cs" />
+    <Compile Include="ViewEmployeesBones.cs" />
+    <Compile Include="ViewEmployeesSalary.cs" />
+    <Compile Include="ViewEmployeesSalaryPaying.cs" />
+    <Compile Include="ViewGoods.cs" />
+    <Compile Include="ViewGoodsSearch.cs" />
+    <Compile Include="ViewOutComing.cs" />
+    <Compile Include="ViewRentPays.cs" />
+    <Compile Include="ViewStoreConvertDetails.cs" />
+    <Compile Include="ViewStoreConverts.cs" />
+    <Compile Include="ViewStoreReviewDetails.cs" />
+    <Compile Include="ViewStoreReviewSummary.cs" />
+    <Compile Include="ViewVendorPaying.cs" />
+    <Compile Include="ViewVendorsBills.cs" />
+    <Compile Include="ViewVendorsGoods.cs" />
+    <Compile Include="_TblBackUp.cs" />
+    <Compile Include="_TblBankOperation.cs" />
+    <Compile Include="_TblBanks.cs" />
+    <Compile Include="_TblBarcodeCountPrint.cs" />
+    <Compile Include="_TblBarcodePrint.cs" />
+    <Compile Include="_TblCount.cs" />
+    <Compile Include="_TblCurrency.cs" />
+    <Compile Include="_TblCustomerBillsPayments.cs" />
+    <Compile Include="_TblCustomersBills.cs" />
+    <Compile Include="_TblCustomersData.cs" />
+    <Compile Include="_TblCustomersPaying.cs" />
+    <Compile Include="_TblEmployeesBones.cs" />
+    <Compile Include="_TblEmployeesData.cs" />
+    <Compile Include="_TblEmployeesSalary.cs" />
+    <Compile Include="_TblEmployeesSalaryPaying.cs" />
+    <Compile Include="_TblGoodsBarcode.cs" />
+    <Compile Include="_TblGoodsCategory.cs" />
+    <Compile Include="_TblGoodsTitles.cs" />
+    <Compile Include="_TblGoodUnits.cs" />
+    <Compile Include="_TblMessageArchiveDetails.cs" />
+    <Compile Include="_TblMessagePublicNumbers.cs" />
+    <Compile Include="_TblMessageTemplates.cs" />
+    <Compile Include="_TblMobileMessageArchive.cs" />
+    <Compile Include="_TblMoneySources.cs" />
+    <Compile Include="_TblOutComingItems.cs" />
+    <Compile Include="_TblOutComings.cs" />
+    <Compile Include="_TblPrint.cs" />
+    <Compile Include="_TblRentPayDetails.cs" />
+    <Compile Include="_TblRentPays.cs" />
+    <Compile Include="_TblRents.cs" />
+    <Compile Include="_TblStoreConvertDetails.cs" />
+    <Compile Include="_TblStoreConverts.cs" />
+    <Compile Include="_TblStoreReview.cs" />
+    <Compile Include="_TblStoreReviewDetails.cs" />
+    <Compile Include="_TblStoreReviewSummary.cs" />
+    <Compile Include="_TblStores.cs" />
+    <Compile Include="_TblUsers.cs" />
+    <Compile Include="_TblValidationForUsers.cs" />
+    <Compile Include="_TblValidations.cs" />
+    <Compile Include="_TblVat.cs" />
+    <Compile Include="_TblVendorsBillGoods.cs" />
+    <Compile Include="_TblVendorsBills.cs" />
+    <Compile Include="_TblVendorsData.cs" />
+    <Compile Include="_TblVendorsPaying.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyGeneration.dOOdads\MyGeneration.dOOdads_2005.csproj">
+      <Project>{8666c149-f8d1-47ce-b5e2-bee0bc844a9a}</Project>
+      <Name>MyGeneration.dOOdads_2005</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

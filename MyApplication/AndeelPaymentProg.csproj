@@ -1,0 +1,1394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17177C6A-33CD-4760-B1EA-E91AB40DD2F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyApplication</RootNamespace>
+    <AssemblyName>PaymentsProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SeniorLap\Desktop\المنجومي 29-12-2021\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>برنامج المبيعات</ProductName>
+    <PublisherName>AHMED ANDEEL</PublisherName>
+    <SuiteName>0557745652</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A19090B59D9173A3FF4EC6D79FCFCC29B8928433</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PharmacyApp_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AmrPrinting">
+      <HintPath>..\..\..\..\..\Ahmed Andeel\Programming\AmrPrinting.dll</HintPath>
+    </Reference>
+    <Reference Include="IDAutomation.DataBarFontEncoder">
+      <HintPath>..\..\..\..\..\Barcode Fonts\DLL\IDAutomation.DataBarFontEncoder.dll</HintPath>
+    </Reference>
+    <Reference Include="IDAutomation.IntelligentMail">
+      <HintPath>..\..\..\..\..\Barcode Fonts\DLL\IDAutomation.IntelligentMail.dll</HintPath>
+    </Reference>
+    <Reference Include="IDAutomation.NetAssembly">
+      <HintPath>..\..\..\..\..\Barcode Fonts\DLL\IDAutomation.NetAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.1\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbodaDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbodaDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AbodaDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbodaDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AbodaDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbodaDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ALAseelVetDBDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALAseelVetDBDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Attentions\DialogRequiredGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attentions\DialogRequiredGoods.designer.cs">
+      <DependentUpon>DialogRequiredGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banks\ClassSafe.cs" />
+    <Compile Include="Banks\DialogAddBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banks\DialogAddBank.designer.cs">
+      <DependentUpon>DialogAddBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banks\DialogBankFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banks\DialogBankFinance.designer.cs">
+      <DependentUpon>DialogBankFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banks\DialogConvertMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banks\DialogConvertMoney.designer.cs">
+      <DependentUpon>DialogConvertMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banks\FrmBanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banks\FrmBanks.designer.cs">
+      <DependentUpon>FrmBanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassPrintCashirBill.cs" />
+    <Compile Include="CurrencyInfo.cs" />
+    <Compile Include="Customers\DialogAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\DialogAddCustomer.designer.cs">
+      <DependentUpon>DialogAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\FrmCustomerFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\FrmCustomerFinance.designer.cs">
+      <DependentUpon>FrmCustomerFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\FrmCustomersData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\FrmCustomersData.designer.cs">
+      <DependentUpon>FrmCustomersData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogChooseBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogChooseBill.designer.cs">
+      <DependentUpon>DialogChooseBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogTakeSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogTakeSalary.designer.cs">
+      <DependentUpon>DialogTakeSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaysalNewDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaysalNewDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogBillProfitDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogBillProfitDetails.designer.cs">
+      <DependentUpon>DialogBillProfitDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogDailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogDailyReport.designer.cs">
+      <DependentUpon>DialogDailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogPayDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogPayDetails.designer.cs">
+      <DependentUpon>DialogPayDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogTotalMonthReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogTotalMonthReport.designer.cs">
+      <DependentUpon>DialogTotalMonthReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogVatDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogVatDetails.designer.cs">
+      <DependentUpon>DialogVatDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\DialogVatValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\DialogVatValue.designer.cs">
+      <DependentUpon>DialogVatValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FrmSafeAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FrmSafeAll.designer.cs">
+      <DependentUpon>FrmSafeAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FrmVendorsMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FrmVendorsMoney.designer.cs">
+      <DependentUpon>FrmVendorsMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBankFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBankFinance.Designer.cs">
+      <DependentUpon>FrmPrintBankFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBarcode.designer.cs">
+      <DependentUpon>FrmPrintBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBillEpson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBillEpson.Designer.cs">
+      <DependentUpon>FrmPrintBillEpson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBuys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBuys.designer.cs">
+      <DependentUpon>FrmPrintBuys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintGoodsRequired.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintGoodsRequired.designer.cs">
+      <DependentUpon>FrmPrintGoodsRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintMonthReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintMonthReport.designer.cs">
+      <DependentUpon>FrmPrintMonthReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPayments.designer.cs">
+      <DependentUpon>FrmPrintPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintRestMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintRestMoney.designer.cs">
+      <DependentUpon>FrmPrintRestMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintStoreReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintStoreReview.designer.cs">
+      <DependentUpon>FrmPrintStoreReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintVendorBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintVendorBill.designer.cs">
+      <DependentUpon>FrmPrintVendorBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\DialogAddGood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\DialogAddGood.designer.cs">
+      <DependentUpon>DialogAddGood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\DialogCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\DialogCategory.designer.cs">
+      <DependentUpon>DialogCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\DialogSelectGoodsBarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\DialogSelectGoodsBarCode.designer.cs">
+      <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutComing\DialogAddOutComing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutComing\DialogAddOutComing.designer.cs">
+      <DependentUpon>DialogAddOutComing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutComing\FrmOutComing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutComing\FrmOutComing.designer.cs">
+      <DependentUpon>FrmOutComing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentsDBDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentsDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\ClassCustomerFinance.cs" />
+    <Compile Include="Goods\ClassFollowGood.cs" />
+    <Compile Include="ClassGetBillNumber.cs" />
+    <Compile Include="ClassValidation.cs" />
+    <Compile Include="ClassVendorBillTotal.cs" />
+    <Compile Include="ClassVendorFinance.cs" />
+    <Compile Include="Customers\DialogAddCustomerPaying.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\DialogAddCustomerPaying.designer.cs">
+      <DependentUpon>DialogAddCustomerPaying.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintCustomerFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintCustomerFinance.Designer.cs">
+      <DependentUpon>FrmPrintCustomerFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ELMagedBranchDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ELMagedBranchDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\ClassEmployeesFinance.cs" />
+    <Compile Include="Employees\ClassGetEmployeesLast.cs" />
+    <Compile Include="Employees\DialogAddBones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogAddBones.designer.cs">
+      <DependentUpon>DialogAddBones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogAddEmploee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogAddEmploee.designer.cs">
+      <DependentUpon>DialogAddEmploee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogAddEmpToArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogAddEmpToArchive.designer.cs">
+      <DependentUpon>DialogAddEmpToArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogAddOneSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogAddOneSalary.designer.cs">
+      <DependentUpon>DialogAddOneSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogAddSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogAddSalary.designer.cs">
+      <DependentUpon>DialogAddSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogEmployeesArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogEmployeesArchive.designer.cs">
+      <DependentUpon>DialogEmployeesArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogEmployeesFinanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogEmployeesFinanceDetails.designer.cs">
+      <DependentUpon>DialogEmployeesFinanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\DialogSalaryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\DialogSalaryDetails.designer.cs">
+      <DependentUpon>DialogSalaryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\FrmEmployeesData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\FrmEmployeesData.designer.cs">
+      <DependentUpon>FrmEmployeesData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees\FrmEmployeesSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees\FrmEmployeesSalary.designer.cs">
+      <DependentUpon>FrmEmployeesSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintBillA4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintBillA4.designer.cs">
+      <DependentUpon>FrmPrintBillA4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintDailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintDailyReport.Designer.cs">
+      <DependentUpon>FrmPrintDailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintGoodsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintGoodsReport.Designer.cs">
+      <DependentUpon>FrmPrintGoodsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintVatReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintVatReport.designer.cs">
+      <DependentUpon>FrmPrintVatReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\DialogFollowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\DialogFollowDetails.designer.cs">
+      <DependentUpon>DialogFollowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutComing\DialogOutItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutComing\DialogOutItems.designer.cs">
+      <DependentUpon>DialogOutItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\ClassCustomerBillTotal.cs" />
+    <Compile Include="Payments\DialogAdvancedSearchPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments\DialogAdvancedSearchPayments.Designer.cs">
+      <DependentUpon>DialogAdvancedSearchPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\DialogNewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments\DialogNewOrder.designer.cs">
+      <DependentUpon>DialogNewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\DialogPaymentBillDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments\DialogPaymentBillDetails.designer.cs">
+      <DependentUpon>DialogPaymentBillDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\DialogSearchCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments\DialogSearchCustomer.designer.cs">
+      <DependentUpon>DialogSearchCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\FrmSearchPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments\FrmSearchPayments.designer.cs">
+      <DependentUpon>FrmSearchPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaferHealthDB2DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaferHealthDB2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StoreReview\ClassStoreReview.cs" />
+    <Compile Include="StoreReview\DialogAddGoodsToReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreReview\DialogAddGoodsToReview.designer.cs">
+      <DependentUpon>DialogAddGoodsToReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreReview\DialogNewReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreReview\DialogNewReview.designer.cs">
+      <DependentUpon>DialogNewReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreReview\DialogReviewDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreReview\DialogReviewDetails.designer.cs">
+      <DependentUpon>DialogReviewDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreReview\DialogStoreReviews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreReview\DialogStoreReviews.designer.cs">
+      <DependentUpon>DialogStoreReviews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stores\DialogAddConvertBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores\DialogAddConvertBill.designer.cs">
+      <DependentUpon>DialogAddConvertBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stores\DialogConvertsBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores\DialogConvertsBills.designer.cs">
+      <DependentUpon>DialogConvertsBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stores\DialogStores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores\DialogStores.designer.cs">
+      <DependentUpon>DialogStores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\DialogUnits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\DialogUnits.Designer.cs">
+      <DependentUpon>DialogUnits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goods\FrmAllGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goods\FrmAllGoods.designer.cs">
+      <DependentUpon>FrmAllGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToWord.cs" />
+    <Compile Include="Validations\DialogEditUserNameAndPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validations\DialogEditUserNameAndPass.designer.cs">
+      <DependentUpon>DialogEditUserNameAndPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validations\DialogValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validations\DialogValidation.designer.cs">
+      <DependentUpon>DialogValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validations\FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validations\FrmUsers.designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogAddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogAddVendor.designer.cs">
+      <DependentUpon>DialogAddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogAddVendorPaying.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogAddVendorPaying.designer.cs">
+      <DependentUpon>DialogAddVendorPaying.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogBillDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogBillDetails.designer.cs">
+      <DependentUpon>DialogBillDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogGoodsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogGoodsReport.Designer.cs">
+      <DependentUpon>DialogGoodsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogNewBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogNewBill.designer.cs">
+      <DependentUpon>DialogNewBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\DialogViewVendorPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\DialogViewVendorPayments.designer.cs">
+      <DependentUpon>DialogViewVendorPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\FrmCurrentBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\FrmCurrentBills.designer.cs">
+      <DependentUpon>FrmCurrentBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintVendorFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintVendorFinance.Designer.cs">
+      <DependentUpon>FrmPrintVendorFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FrmAllFinancial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FrmAllFinancial.Designer.cs">
+      <DependentUpon>FrmAllFinancial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintAllGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintAllGoods.Designer.cs">
+      <DependentUpon>FrmPrintAllGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintOutCome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintOutCome.Designer.cs">
+      <DependentUpon>FrmPrintOutCome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintSelectedGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintSelectedGoods.Designer.cs">
+      <DependentUpon>FrmPrintSelectedGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintSnadSarf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintSnadSarf.Designer.cs">
+      <DependentUpon>FrmPrintSnadSarf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintSnadKapd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintSnadKapd.Designer.cs">
+      <DependentUpon>FrmPrintSnadKapd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FrmProfitBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FrmProfitBills.Designer.cs">
+      <DependentUpon>FrmProfitBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyProgress.Designer.cs">
+      <DependentUpon>MyProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyVariable.cs" />
+    <Compile Include="NewDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacyDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacyDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PharmacyDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacyDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PharmacyDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vendors\FrmVendorFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\FrmVendorFinance.designer.cs">
+      <DependentUpon>FrmVendorFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors\FrmVendorsData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors\FrmVendorsData.designer.cs">
+      <DependentUpon>FrmVendorsData.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Attentions\DialogRequiredGoods.resx">
+      <DependentUpon>DialogRequiredGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogAddBank.resx">
+      <DependentUpon>DialogAddBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogBankFinance.resx">
+      <DependentUpon>DialogBankFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogConvertMoney.resx">
+      <DependentUpon>DialogConvertMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\FrmBanks.resx">
+      <DependentUpon>FrmBanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\DialogAddCustomer.resx">
+      <DependentUpon>DialogAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\DialogAddCustomerPaying.resx">
+      <DependentUpon>DialogAddCustomerPaying.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\FrmCustomerFinance.resx">
+      <DependentUpon>FrmCustomerFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\FrmCustomersData.resx">
+      <DependentUpon>FrmCustomersData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogTakeSalary.resx">
+      <DependentUpon>DialogTakeSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogDailyReport.resx">
+      <DependentUpon>DialogDailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogPayDetails.resx">
+      <DependentUpon>DialogPayDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogTotalMonthReport.resx">
+      <DependentUpon>DialogTotalMonthReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FrmSafeAll.resx">
+      <DependentUpon>FrmSafeAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBankFinance.resx">
+      <DependentUpon>FrmPrintBankFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBarcode.resx">
+      <DependentUpon>FrmPrintBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintCustomerFinance.resx">
+      <DependentUpon>FrmPrintCustomerFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogChooseBill.resx">
+      <DependentUpon>DialogChooseBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddBones.resx">
+      <DependentUpon>DialogAddBones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddEmploee.resx">
+      <DependentUpon>DialogAddEmploee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddEmpToArchive.resx">
+      <DependentUpon>DialogAddEmpToArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddOneSalary.resx">
+      <DependentUpon>DialogAddOneSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddSalary.resx">
+      <DependentUpon>DialogAddSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogEmployeesArchive.resx">
+      <DependentUpon>DialogEmployeesArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogEmployeesFinanceDetails.resx">
+      <DependentUpon>DialogEmployeesFinanceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogSalaryDetails.resx">
+      <DependentUpon>DialogSalaryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\FrmEmployeesData.resx">
+      <DependentUpon>FrmEmployeesData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\FrmEmployeesSalary.resx">
+      <DependentUpon>FrmEmployeesSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogBillProfitDetails.resx">
+      <DependentUpon>DialogBillProfitDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogVatDetails.resx">
+      <DependentUpon>DialogVatDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\DialogVatValue.resx">
+      <DependentUpon>DialogVatValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FrmVendorsMoney.resx">
+      <DependentUpon>FrmVendorsMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBillA4.resx">
+      <DependentUpon>FrmPrintBillA4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBillEpson.resx">
+      <DependentUpon>FrmPrintBillEpson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintBuys.resx">
+      <DependentUpon>FrmPrintBuys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintDailyReport.resx">
+      <DependentUpon>FrmPrintDailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintGoodsReport.resx">
+      <DependentUpon>FrmPrintGoodsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintGoodsRequired.resx">
+      <DependentUpon>FrmPrintGoodsRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintMonthReport.resx">
+      <DependentUpon>FrmPrintMonthReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPayments.resx">
+      <DependentUpon>FrmPrintPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintRestMoney.resx">
+      <DependentUpon>FrmPrintRestMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintStoreReview.resx">
+      <DependentUpon>FrmPrintStoreReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintVatReport.resx">
+      <DependentUpon>FrmPrintVatReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintVendorBill.resx">
+      <DependentUpon>FrmPrintVendorBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogAddGood.resx">
+      <DependentUpon>DialogAddGood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogCategory.resx">
+      <DependentUpon>DialogCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogFollowDetails.resx">
+      <DependentUpon>DialogFollowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.aa-DJ.resx">
+      <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.aa.resx">
+      <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.resx">
+      <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogUnits.en-PK.resx">
+      <DependentUpon>DialogUnits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\DialogAddOutComing.resx">
+      <DependentUpon>DialogAddOutComing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\DialogOutItems.resx">
+      <DependentUpon>DialogOutItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\FrmOutComing.resx">
+      <DependentUpon>FrmOutComing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogAdvancedSearchPayments.resx">
+      <DependentUpon>DialogAdvancedSearchPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogNewOrder.resx">
+      <DependentUpon>DialogNewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogPaymentBillDetails.resx">
+      <DependentUpon>DialogPaymentBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogSearchCustomer.resx">
+      <DependentUpon>DialogSearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\FrmSearchPayments.resx">
+      <DependentUpon>FrmSearchPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportBankFinance.rdlc" />
+    <EmbeddedResource Include="ReportBarcodeStiker.rdlc" />
+    <EmbeddedResource Include="ReportBillA4.rdlc" />
+    <EmbeddedResource Include="ReportBillEpson.rdlc" />
+    <EmbeddedResource Include="ReportDailyReport.rdlc" />
+    <EmbeddedResource Include="ReportGoodRequired.rdlc" />
+    <EmbeddedResource Include="ReportMonthReport.rdlc" />
+    <EmbeddedResource Include="ReportOutCome.rdlc" />
+    <EmbeddedResource Include="ReportPayments.rdlc" />
+    <EmbeddedResource Include="ReportRestMoney.rdlc" />
+    <EmbeddedResource Include="ReportStoreReview.rdlc" />
+    <EmbeddedResource Include="ReportVat.rdlc" />
+    <EmbeddedResource Include="ReportVendorBill.rdlc" />
+    <EmbeddedResource Include="ReportVendorBills.rdlc" />
+    <EmbeddedResource Include="StoreReview\DialogAddGoodsToReview.resx">
+      <DependentUpon>DialogAddGoodsToReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreReview\DialogNewReview.resx">
+      <DependentUpon>DialogNewReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreReview\DialogReviewDetails.resx">
+      <DependentUpon>DialogReviewDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreReview\DialogStoreReviews.resx">
+      <DependentUpon>DialogStoreReviews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores\DialogAddConvertBill.resx">
+      <DependentUpon>DialogAddConvertBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores\DialogConvertsBills.resx">
+      <DependentUpon>DialogConvertsBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores\DialogStores.resx">
+      <DependentUpon>DialogStores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogUnits.resx">
+      <DependentUpon>DialogUnits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\FrmAllGoods.resx">
+      <DependentUpon>FrmAllGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCustomerFinance.rdlc" />
+    <EmbeddedResource Include="ReportVendorGoods.rdlc" />
+    <EmbeddedResource Include="Validations\DialogEditUserNameAndPass.resx">
+      <DependentUpon>DialogEditUserNameAndPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validations\DialogValidation.resx">
+      <DependentUpon>DialogValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validations\FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogAddVendor.en-PG.resx">
+      <DependentUpon>DialogAddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogAddVendor.en-PK.resx">
+      <DependentUpon>DialogAddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogAddVendor.resx">
+      <DependentUpon>DialogAddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogAddVendorPaying.en-PK.resx">
+      <DependentUpon>DialogAddVendorPaying.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogAddVendorPaying.resx">
+      <DependentUpon>DialogAddVendorPaying.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogBillDetails.resx">
+      <DependentUpon>DialogBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogGoodsReport.resx">
+      <DependentUpon>DialogGoodsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogNewBill.resx">
+      <DependentUpon>DialogNewBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogViewVendorPayments.resx">
+      <DependentUpon>DialogViewVendorPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\FrmCurrentBills.resx">
+      <DependentUpon>FrmCurrentBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintVendorFinance.resx">
+      <DependentUpon>FrmPrintVendorFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportVendorFinance.rdlc" />
+    <EmbeddedResource Include="Finance\FrmAllFinancial.resx">
+      <DependentUpon>FrmAllFinancial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintAllGoods.resx">
+      <DependentUpon>FrmPrintAllGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintOutCome.resx">
+      <DependentUpon>FrmPrintOutCome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintSelectedGoods.resx">
+      <DependentUpon>FrmPrintSelectedGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintSnadSarf.resx">
+      <DependentUpon>FrmPrintSnadSarf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintSnadKapd.resx">
+      <DependentUpon>FrmPrintSnadKapd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FrmProfitBills.resx">
+      <DependentUpon>FrmProfitBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyProgress.resx">
+      <DependentUpon>MyProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportGoodsData.rdlc" />
+    <EmbeddedResource Include="ReportSnadSarf.rdlc" />
+    <EmbeddedResource Include="ReportSnadKapd.rdlc" />
+    <EmbeddedResource Include="ReportGoodsSelected.rdlc" />
+    <EmbeddedResource Include="Vendors\FrmVendorFinance.resx">
+      <DependentUpon>FrmVendorFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\FrmVendorsData.resx">
+      <DependentUpon>FrmVendorsData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AbodaDBDataSet.xsc">
+      <DependentUpon>AbodaDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AbodaDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AbodaDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AbodaDBDataSet.xss">
+      <DependentUpon>AbodaDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AbodaDBDataSet1.xsc">
+      <DependentUpon>AbodaDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AbodaDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AbodaDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AbodaDBDataSet1.xss">
+      <DependentUpon>AbodaDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AbodaDBDataSet2.xsc">
+      <DependentUpon>AbodaDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AbodaDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AbodaDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AbodaDBDataSet2.xss">
+      <DependentUpon>AbodaDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ALAseelVetDBDataSet9.xsc">
+      <DependentUpon>ALAseelVetDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ALAseelVetDBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALAseelVetDBDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ALAseelVetDBDataSet9.xss">
+      <DependentUpon>ALAseelVetDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ELMagedBranchDBDataSet1.xsc">
+      <DependentUpon>ELMagedBranchDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ELMagedBranchDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ELMagedBranchDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ELMagedBranchDBDataSet1.xss">
+      <DependentUpon>ELMagedBranchDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FaysalNewDBDataSet.xsc">
+      <DependentUpon>FaysalNewDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FaysalNewDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FaysalNewDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FaysalNewDBDataSet.xss">
+      <DependentUpon>FaysalNewDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyDataSet.xsc">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyDataSet.xss">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NewDataSet.xsc">
+      <DependentUpon>NewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NewDataSet.xss">
+      <DependentUpon>NewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PaymentsDBDataSet2.xsc">
+      <DependentUpon>PaymentsDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PaymentsDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentsDBDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PaymentsDBDataSet2.xss">
+      <DependentUpon>PaymentsDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet.xsc">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PharmacyDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PharmacyDBDataSet.xss">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet1.xsc">
+      <DependentUpon>PharmacyDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PharmacyDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PharmacyDBDataSet1.xss">
+      <DependentUpon>PharmacyDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet2.xsc">
+      <DependentUpon>PharmacyDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PharmacyDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PharmacyDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PharmacyDBDataSet2.xss">
+      <DependentUpon>PharmacyDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SaferHealthDB2DataSet1.xsc">
+      <DependentUpon>SaferHealthDB2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SaferHealthDB2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SaferHealthDB2DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SaferHealthDB2DataSet1.xss">
+      <DependentUpon>SaferHealthDB2DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyClasses\MyClasses.csproj">
+      <Project>{bb3f7a28-1a9e-4f34-9fd9-f004bac8237d}</Project>
+      <Name>MyClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyGeneration.dOOdads\MyGeneration.dOOdads_2005.csproj">
+      <Project>{8666c149-f8d1-47ce-b5e2-bee0bc844a9a}</Project>
+      <Name>MyGeneration.dOOdads_2005</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogIn%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فاتورة.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\مبيعات.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\حفظ التعديل.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CreateBill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddToBill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveBill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="around.ico" />
+    <Content Include="Logo.ico" />
+    <Content Include="new icon_codeFX7.ico" />
+    <None Include="Resources\www.png" />
+    <None Include="Resources\AddImage.jpg" />
+    <None Include="Resources\LogoPNG.png" />
+    <None Include="Resources\IconSearch.png" />
+    <None Include="Resources\DeleteBill.png" />
+    <None Include="Resources\EmptyBTN.png" />
+    <None Include="Resources\BtnBewBackBill.jpg" />
+    <None Include="Resources\btnNewBill.jpg" />
+    <None Include="Resources\NewOrder.png" />
+    <None Include="Resources\AddNewBillBTN.jpg" />
+    <None Include="Resources\BtnPrintSelected.png" />
+    <None Include="Resources\IconDetails.png" />
+    <None Include="Resources\IconDelete1.png" />
+    <None Include="Resources\IconDelete.png" />
+    <None Include="Resources\Print.png" />
+    <None Include="Resources\EmptyDelete.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\ف ل2.png" />
+    <None Include="Resources\ف ل.png" />
+    <None Include="Resources\CustomerBack.png" />
+    <None Include="Resources\الغاء الامر.png" />
+    <None Include="Resources\اضافة.png" />
+    <None Include="Resources\IconSave.png" />
+    <None Include="Resources\10-.png" />
+    <None Include="Resources\11-.png" />
+    <None Include="Resources\ب ا.png" />
+    <None Include="Resources\Untitled-1%281%29.png" />
+    <None Include="Resources\password1.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
