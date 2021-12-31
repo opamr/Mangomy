@@ -130,9 +130,6 @@
   <data name="lblDiscount.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="ColumnDelete.HeaderText" xml:space="preserve">
-    <value>حذف</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -143,9 +140,8 @@
   <data name="&gt;&gt;lblBillTotal.Name" xml:space="preserve">
     <value>lblBillTotal</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 19</value>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="txtUnitPrice.ToolTip" xml:space="preserve">
     <value />
@@ -168,20 +164,21 @@
   <data name="label4.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;txtSender.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtVat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 26</value>
   </data>
   <data name="txtPayPrice.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
+  <data name="chekBoxPercent.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;lblAfterVat.Name" xml:space="preserve">
     <value>lblAfterVat</value>
   </data>
-  <data name="&gt;&gt;ColumnAverge.Name" xml:space="preserve">
-    <value>ColumnAverge</value>
+  <data name="&gt;&gt;txtCount.Name" xml:space="preserve">
+    <value>txtCount</value>
   </data>
   <data name="txtPayPrice.Location" type="System.Drawing.Point, System.Drawing">
     <value>224, 41</value>
@@ -198,8 +195,8 @@
   <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 49</value>
   </data>
-  <data name="chekbxMoney.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الخصم :</value>
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 19</value>
@@ -210,14 +207,14 @@
   <data name="txtSender.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="comboVendors.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="txtDiscount.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="txtVendorBillNumber.Location" type="System.Drawing.Point, System.Drawing">
     <value>907, 132</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="lblVat.ToolTip1" xml:space="preserve">
     <value />
@@ -249,8 +246,8 @@
   <data name="&gt;&gt;lblVat.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 26</value>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="comboVendors.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -270,6 +267,9 @@
   <data name="txtSender.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
   </data>
+  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
@@ -284,6 +284,9 @@
   </data>
   <data name="lblAfterVat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
+  </data>
+  <data name="txtSender.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="txtCount.Text" xml:space="preserve">
     <value>0</value>
@@ -306,23 +309,20 @@
   <data name="lblVatType.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
   </data>
-  <data name="txtAverge.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 41</value>
-  </data>
   <data name="&gt;&gt;ColumnCount.Name" xml:space="preserve">
     <value>ColumnCount</value>
   </data>
   <data name="&gt;&gt;lblVat.Name" xml:space="preserve">
     <value>lblVat</value>
   </data>
-  <data name="&gt;&gt;comboType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 26</value>
   </data>
   <data name="&gt;&gt;lblTotalAfterDiscount.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="chekBoxPercent.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="txtDetails.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -366,8 +366,8 @@
   <data name="&gt;&gt;comboUnits.Name" xml:space="preserve">
     <value>comboUnits</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>819, 31</value>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 12</value>
   </data>
   <data name="label2.ToolTip" xml:space="preserve">
     <value />
@@ -375,8 +375,8 @@
   <data name="lblVatType.Size" type="System.Drawing.Size, System.Drawing">
     <value>134, 19</value>
   </data>
-  <data name="&gt;&gt;txtVat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label12.ToolTip1" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;chekBoxPercent.Parent" xml:space="preserve">
     <value>groupBox6</value>
@@ -386,6 +386,9 @@
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>19</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;ColumnType.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -408,14 +411,8 @@
   <data name="txtSender.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;lblCurrentRest.Name" xml:space="preserve">
-    <value>lblCurrentRest</value>
-  </data>
   <data name="lblTotalAfterDiscount.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="txtVendorBillNumber.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
   </data>
   <data name="&gt;&gt;lblCurrentRest.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -435,10 +432,10 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DialogNewBill</value>
   </data>
-  <data name="&gt;&gt;txtCount.Name" xml:space="preserve">
-    <value>txtCount</value>
+  <data name="lblAfterVat.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
   </data>
-  <data name="lblCurrentRest.ToolTip" xml:space="preserve">
+  <data name="txtBones.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;txtBones.Parent" xml:space="preserve">
@@ -474,14 +471,20 @@
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtBones.ToolTip" xml:space="preserve">
+  <data name="comboVendors.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;lblBillTotal.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="lblGoodBuy.ToolTip1" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;txtUnitPrice.Name" xml:space="preserve">
-    <value>txtUnitPrice</value>
+  <data name="label6.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="lblAfterVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 158</value>
   </data>
   <data name="&gt;&gt;lblCurrentRest.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -497,12 +500,6 @@
   </data>
   <data name="label2.ToolTip1" xml:space="preserve">
     <value />
-  </data>
-  <data name="lblAfterVat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 158</value>
-  </data>
-  <data name="&gt;&gt;toolTip2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ColumnPayPrice.Name" xml:space="preserve">
     <value>ColumnPayPrice</value>
@@ -528,8 +525,8 @@
   <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="label13.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblCurrentRest.Name" xml:space="preserve">
+    <value>lblCurrentRest</value>
   </data>
   <data name="&gt;&gt;ColumnTitleID.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -597,17 +594,20 @@
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
   </data>
-  <data name="&gt;&gt;chekBoxPercent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>126</value>
   </data>
-  <data name="checkBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="&gt;&gt;txtSender.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chekBoxPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ColumnPayPrice.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -615,20 +615,17 @@
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>94</value>
   </data>
-  <data name="groupBox6.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="txtVat.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;chekBoxPercent.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtDetails.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="ColumnBarcode.Width" type="System.Int32, mscorlib">
     <value>115</value>
@@ -650,6 +647,9 @@
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>28</value>
@@ -693,8 +693,8 @@
   <data name="txtVat.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="txtPayPrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
+  <data name="&gt;&gt;BtnAddToBill.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="txtCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>599, 41</value>
@@ -714,26 +714,17 @@
   <data name="label7.Text" xml:space="preserve">
     <value>: رقم فاتورة المورد</value>
   </data>
-  <data name="comboUnits.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;comboVendors.Name" xml:space="preserve">
     <value>comboVendors</value>
   </data>
   <data name="&gt;&gt;comboBanks.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Column2.HeaderText" xml:space="preserve">
-    <value>اسم الصنف</value>
-  </data>
-  <data name="txtDetails.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="&gt;&gt;toolTip2.Name" xml:space="preserve">
+    <value>toolTip2</value>
   </data>
   <data name="txtAverge.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 26</value>
-  </data>
-  <data name="&gt;&gt;txtDetails.ZOrder" xml:space="preserve">
-    <value>15</value>
   </data>
   <data name="label7.ToolTip1" xml:space="preserve">
     <value />
@@ -744,17 +735,11 @@
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label6.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>فاتورة مشتريات</value>
-  </data>
-  <data name="chekbxMoney.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="txtAverge.ToolTip1" xml:space="preserve">
     <value />
@@ -765,8 +750,11 @@
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -776,9 +764,6 @@
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>24</value>
-  </data>
-  <data name="&gt;&gt;ColumnType.Name" xml:space="preserve">
-    <value>ColumnType</value>
   </data>
   <data name="comboGoods.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -834,17 +819,11 @@
   <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="txtBones.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;txtSender.ZOrder" xml:space="preserve">
+    <value>17</value>
   </data>
   <data name="comboGoods.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="BtnAddToBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>الخصم :</value>
   </data>
   <data name="txtPayPrice.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -891,8 +870,8 @@
   <data name="&gt;&gt;BtnNewGood.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="lblAfterVat.TabIndex" type="System.Int32, mscorlib">
-    <value>127</value>
+  <data name="ColumnDelete.HeaderText" xml:space="preserve">
+    <value>حذف</value>
   </data>
   <data name="txtUnitPrice.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -900,14 +879,17 @@
   <data name="&gt;&gt;chekBoxPercent.Name" xml:space="preserve">
     <value>chekBoxPercent</value>
   </data>
-  <data name="txtVat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 26</value>
+  <data name="BtnAddToBill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
   </data>
   <data name="&gt;&gt;lblGoodBuy.Name" xml:space="preserve">
     <value>lblGoodBuy</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 22</value>
+  </data>
+  <data name="BtnDeleteBill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 147</value>
   </data>
   <data name="lblCurrentRest.Text" xml:space="preserve">
     <value>0</value>
@@ -918,8 +900,11 @@
   <data name="txtUnitPrice.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="chekBoxPercent.Text" xml:space="preserve">
-    <value>نسبة</value>
+  <data name="&gt;&gt;ColumnType.Name" xml:space="preserve">
+    <value>ColumnType</value>
+  </data>
+  <data name="lblVat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -981,6 +966,9 @@
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 19</value>
   </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
   <data name="&gt;&gt;ColumnBones.Name" xml:space="preserve">
     <value>ColumnBones</value>
   </data>
@@ -990,7 +978,7 @@
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>1072, 132</value>
   </data>
-  <data name="comboType.ToolTip1" xml:space="preserve">
+  <data name="lblCurrentRest.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
@@ -1035,9 +1023,6 @@
   <data name="&gt;&gt;ColumnUnitPrice.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
-  </data>
   <data name="checkBox1.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -1056,8 +1041,8 @@
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>: الإجمالي شامل الضريبة</value>
+  <data name="&gt;&gt;lblVatType.Name" xml:space="preserve">
+    <value>lblVatType</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>98</value>
@@ -1071,14 +1056,17 @@
   <data name="lblAfterVat.Text" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;lblBillTotal.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
   <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
   </data>
   <data name="BtnSaveBill.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>أصناف الفاتورة</value>
   </data>
   <data name="&gt;&gt;Column2.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1086,8 +1074,8 @@
   <data name="comboGoods.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="lblGoodBuy.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 23</value>
   </data>
   <data name="txtBarcode.ToolTip" xml:space="preserve">
     <value />
@@ -1101,8 +1089,8 @@
   <data name="ColumnCount.Width" type="System.Int32, mscorlib">
     <value>65</value>
   </data>
-  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 26</value>
+  <data name="lblAfterVat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
   </data>
   <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1112,6 +1100,9 @@
   </data>
   <data name="txtBones.ToolTip1" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;txtUnitPrice.Name" xml:space="preserve">
+    <value>txtUnitPrice</value>
   </data>
   <data name="ColumnID.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1127,6 +1118,528 @@
   </data>
   <data name="lblVat.TabIndex" type="System.Int32, mscorlib">
     <value>130</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;lblVatType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chekbxMoney.Name" xml:space="preserve">
+    <value>chekbxMoney</value>
+  </data>
+  <data name="lblBillTotal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnDeleteBill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="lblGoodTotal.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>نوع الخصم</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteBill.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDiscount.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BtnDeleteBill.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chekBoxPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblGoodBuy.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="BtnDeleteBill.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrentRest.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAverge.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboVendors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblGoodBuy.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBanks.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtDiscount.Name" xml:space="preserve">
+    <value>txtDiscount</value>
+  </data>
+  <data name="txtDiscount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPayPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="&gt;&gt;comboGoods.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboType.Items1" xml:space="preserve">
+    <value>فاتورة مشتريات آجل</value>
+  </data>
+  <data name="txtCount.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAverge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblDiscount.Name" xml:space="preserve">
+    <value>lblDiscount</value>
+  </data>
+  <data name="groupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 73</value>
+  </data>
+  <data name="&gt;&gt;comboUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGoodBuy.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="lblDiscount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 25</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;ColumnBarcodeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnNewGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1143, 36</value>
+  </data>
+  <data name="lblTotalAfterDiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13pt, style=Bold</value>
+  </data>
+  <data name="txtCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoodBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 22</value>
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGoodTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="chekBoxPercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="ColumnType.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lblBillTotal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblDiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>اسم الصنف</value>
+  </data>
+  <data name="&gt;&gt;ColumnDelete.Name" xml:space="preserve">
+    <value>ColumnDelete</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="ColumnID.HeaderText" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ColumnPayPrice.HeaderText" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="lblBillTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="BtnNewGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="chekbxMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="txtAverge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 41</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="ColumnBarcodeID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>: التاريخ</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDetails.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColumnType.HeaderText" xml:space="preserve">
+    <value>الوحدة</value>
+  </data>
+  <data name="lblGoodBuy.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="BtnDeleteBill.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;BtnNewGood.Name" xml:space="preserve">
+    <value>BtnNewGood</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="ColumnTitleID.HeaderText" xml:space="preserve">
+    <value>TitleID</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteBill.Name" xml:space="preserve">
+    <value>BtnDeleteBill</value>
+  </data>
+  <data name="comboVendors.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAfterVat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVendorBillNumber.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>819, 31</value>
+  </data>
+  <data name="&gt;&gt;txtVendorBillNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveBill.Name" xml:space="preserve">
+    <value>BtnSaveBill</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColumnBarcodeID.Name" xml:space="preserve">
+    <value>ColumnBarcodeID</value>
+  </data>
+  <data name="ColumnAverge.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;ColumnTotal.Name" xml:space="preserve">
+    <value>ColumnTotal</value>
+  </data>
+  <data name="lblGoodTotal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblTotalAfterDiscount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 19</value>
+  </data>
+  <data name="$this.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboGoods.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="&gt;&gt;lblGoodTotal.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="txtBarcode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="lblGoodTotal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="txtVendorBillNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 26</value>
+  </data>
+  <data name="BtnDeleteBill.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;txtSender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 70</value>
+  </data>
+  <data name="lblCurrentRest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="txtBones.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblAfterVat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtAverge.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="ColumnTotal.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>م</value>
+  </data>
+  <data name="chekBoxPercent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBarcode.Name" xml:space="preserve">
+    <value>txtBarcode</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;comboUnits.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBillTotal.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtSender.Name" xml:space="preserve">
+    <value>txtSender</value>
+  </data>
+  <data name="chekbxMoney.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;lblAfterVat.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="chekbxMoney.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBanks.Name" xml:space="preserve">
+    <value>comboBanks</value>
+  </data>
+  <data name="&gt;&gt;chekbxMoney.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;txtBones.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtVendorBillNumber.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lblVat.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 134</value>
+  </data>
+  <data name="txtUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 41</value>
+  </data>
+  <data name="txtVat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="txtUnitPrice.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColumnAverge.Name" xml:space="preserve">
+    <value>ColumnAverge</value>
+  </data>
+  <data name="&gt;&gt;comboVendors.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="comboType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>907, 22</value>
+  </data>
+  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDiscount.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDiscount.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="chekBoxPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13pt, style=Bold</value>
+  </data>
+  <data name="lblCurrentRest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 13</value>
+  </data>
+  <data name="&gt;&gt;ColumnAverge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCount.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboUnits.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBanks.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lblVatType.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;lblAfterVat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalAfterDiscount.Name" xml:space="preserve">
+    <value>lblTotalAfterDiscount</value>
+  </data>
+  <data name="comboVendors.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5042,543 +5555,6 @@
         ///////////////////////8
 </value>
   </data>
-  <data name="&gt;&gt;lblVatType.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;chekbxMoney.Name" xml:space="preserve">
-    <value>chekbxMoney</value>
-  </data>
-  <data name="lblBillTotal.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;BtnDeleteBill.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtBarcode.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="lblGoodTotal.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox6.Text" xml:space="preserve">
-    <value>نوع الخصم</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteBill.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblDiscount.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="BtnDeleteBill.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chekBoxPercent.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="lblGoodBuy.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="BtnDeleteBill.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCurrentRest.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtAverge.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;comboVendors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="lblGoodBuy.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="&gt;&gt;txtBarcode.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="comboBanks.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtDiscount.Name" xml:space="preserve">
-    <value>txtDiscount</value>
-  </data>
-  <data name="&gt;&gt;lblGoodTotal.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="txtDiscount.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtPayPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 26</value>
-  </data>
-  <data name="&gt;&gt;comboGoods.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="comboType.Items1" xml:space="preserve">
-    <value>فاتورة مشتريات آجل</value>
-  </data>
-  <data name="txtCount.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtVat.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="txtAverge.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lblDiscount.Name" xml:space="preserve">
-    <value>lblDiscount</value>
-  </data>
-  <data name="groupBox6.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtVat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 73</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblGoodBuy.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="lblDiscount.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblVat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 25</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>122</value>
-  </data>
-  <data name="&gt;&gt;ColumnBarcodeID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnNewGood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1143, 36</value>
-  </data>
-  <data name="lblTotalAfterDiscount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 13pt, style=Bold</value>
-  </data>
-  <data name="txtCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;txtBones.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label11.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblGoodBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 22</value>
-  </data>
-  <data name="txtDiscount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 26</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblGoodTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 22</value>
-  </data>
-  <data name="chekBoxPercent.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblGoodTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 45</value>
-  </data>
-  <data name="&gt;&gt;comboUnits.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblBillTotal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="lblDiscount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 13pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblVatType.Name" xml:space="preserve">
-    <value>lblVatType</value>
-  </data>
-  <data name="&gt;&gt;ColumnDelete.Name" xml:space="preserve">
-    <value>ColumnDelete</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Column2.Width" type="System.Int32, mscorlib">
-    <value>240</value>
-  </data>
-  <data name="label7.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ColumnID.HeaderText" xml:space="preserve">
-    <value>id</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtSender.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="ColumnPayPrice.HeaderText" xml:space="preserve">
-    <value>سعر البيع</value>
-  </data>
-  <data name="lblBillTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="BtnNewGood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 32</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 19</value>
-  </data>
-  <data name="chekbxMoney.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 19</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>111</value>
-  </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="ColumnBarcodeID.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>: التاريخ</value>
-  </data>
-  <data name="label10.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtDetails.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ColumnType.HeaderText" xml:space="preserve">
-    <value>الوحدة</value>
-  </data>
-  <data name="lblGoodBuy.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;txtDetails.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="lblBillTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 28</value>
-  </data>
-  <data name="BtnDeleteBill.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;BtnNewGood.Name" xml:space="preserve">
-    <value>BtnNewGood</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="ColumnTitleID.HeaderText" xml:space="preserve">
-    <value>TitleID</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteBill.Name" xml:space="preserve">
-    <value>BtnDeleteBill</value>
-  </data>
-  <data name="comboVendors.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblAfterVat.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblDiscount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="txtVendorBillNumber.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtVendorBillNumber.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveBill.Name" xml:space="preserve">
-    <value>BtnSaveBill</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ColumnBarcodeID.Name" xml:space="preserve">
-    <value>ColumnBarcodeID</value>
-  </data>
-  <data name="ColumnAverge.Width" type="System.Int32, mscorlib">
-    <value>140</value>
-  </data>
-  <data name="&gt;&gt;ColumnTotal.Name" xml:space="preserve">
-    <value>ColumnTotal</value>
-  </data>
-  <data name="lblGoodTotal.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="lblTotalAfterDiscount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="ColumnType.Width" type="System.Int32, mscorlib">
-    <value>110</value>
-  </data>
-  <data name="$this.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="comboGoods.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="label3.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
-  </data>
-  <data name="&gt;&gt;lblGoodTotal.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="txtBarcode.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 19</value>
-  </data>
-  <data name="lblGoodTotal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="txtVendorBillNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 26</value>
-  </data>
-  <data name="BtnDeleteBill.TabIndex" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="&gt;&gt;txtSender.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtSender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>594, 70</value>
-  </data>
-  <data name="lblCurrentRest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="txtBones.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="lblAfterVat.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 13pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;txtAverge.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="ColumnTotal.Width" type="System.Int32, mscorlib">
-    <value>95</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
-    <value>م</value>
-  </data>
-  <data name="&gt;&gt;lblVatType.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;txtBarcode.Name" xml:space="preserve">
-    <value>txtBarcode</value>
-  </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;comboUnits.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtBones.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblAfterVat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 25</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 23</value>
-  </data>
-  <data name="&gt;&gt;toolTip2.Name" xml:space="preserve">
-    <value>toolTip2</value>
-  </data>
-  <data name="lblBillTotal.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtSender.Name" xml:space="preserve">
-    <value>txtSender</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 19</value>
-  </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>148</value>
-  </data>
-  <data name="&gt;&gt;lblAfterVat.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="chekbxMoney.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;comboBanks.Name" xml:space="preserve">
-    <value>comboBanks</value>
-  </data>
-  <data name="&gt;&gt;chekbxMoney.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
-    <value>Column2</value>
-  </data>
-  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="BtnDeleteBill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 147</value>
-  </data>
-  <data name="lblVat.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 134</value>
-  </data>
-  <data name="txtUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 41</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtUnitPrice.ToolTip1" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;comboVendors.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="comboType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>907, 22</value>
-  </data>
-  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblDiscount.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblDiscount.TabIndex" type="System.Int32, mscorlib">
-    <value>114</value>
-  </data>
-  <data name="chekBoxPercent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 23</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 13pt, style=Bold</value>
-  </data>
-  <data name="lblCurrentRest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>770, 13</value>
-  </data>
-  <data name="&gt;&gt;ColumnAverge.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtCount.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="txtUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 26</value>
-  </data>
-  <data name="&gt;&gt;comboBanks.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="lblVatType.TabIndex" type="System.Int32, mscorlib">
-    <value>129</value>
-  </data>
-  <data name="&gt;&gt;lblAfterVat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTotalAfterDiscount.Name" xml:space="preserve">
-    <value>lblTotalAfterDiscount</value>
-  </data>
-  <data name="comboVendors.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="lblVat.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 13pt, style=Bold</value>
-  </data>
-  <data name="comboBanks.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblTotalAfterDiscount.Location" type="System.Drawing.Point, System.Drawing">
     <value>346, 163</value>
   </data>
@@ -5587,12 +5563,6 @@
   </data>
   <data name="comboType.Items2" xml:space="preserve">
     <value>فاتورة مرتجعات</value>
-  </data>
-  <data name="&gt;&gt;lblGoodBuy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtSender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
   </data>
   <data name="groupBox3.ToolTip" xml:space="preserve">
     <value />
@@ -5603,11 +5573,14 @@
   <data name="comboType.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
   </data>
+  <data name="txtBones.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ColumnTotal.HeaderText" xml:space="preserve">
     <value>الإجمالي</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="lblDiscount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="BtnAddToBill.ToolTip" xml:space="preserve">
     <value>إضافة للفاتورة</value>
@@ -5615,17 +5588,20 @@
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
   </data>
-  <data name="&gt;&gt;txtDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblGoodTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 45</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+  <data name="txtSender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 26</value>
+  </data>
+  <data name="&gt;&gt;lblBillTotal.Parent" xml:space="preserve">
     <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>22</value>
   </data>
   <data name="dateTimePicker1.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;txtVat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -5666,9 +5642,6 @@
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>483, 168</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 12</value>
-  </data>
   <data name="&gt;&gt;BtnSaveBill.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -5696,14 +5669,23 @@
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 76</value>
   </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="txtVat.TabIndex" type="System.Int32, mscorlib">
     <value>128</value>
   </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
   <data name="label19.ToolTip1" xml:space="preserve">
     <value />
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>أصناف الفاتورة</value>
   </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5717,8 +5699,8 @@
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>1185, 464</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
   </data>
   <data name="comboUnits.Location" type="System.Drawing.Point, System.Drawing">
     <value>675, 40</value>
@@ -5726,8 +5708,8 @@
   <data name="&gt;&gt;txtDiscount.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>22</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5741,11 +5723,17 @@
   <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chekbxMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="chekBoxPercent.Text" xml:space="preserve">
+    <value>نسبة</value>
   </data>
   <data name="comboGoods.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 27</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 26</value>
   </data>
   <data name="&gt;&gt;comboType.Name" xml:space="preserve">
     <value>comboType</value>
@@ -5761,6 +5749,9 @@
   </data>
   <data name="lblAfterVat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>: الإجمالي شامل الضريبة</value>
   </data>
   <data name="&gt;&gt;lblDiscount.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5789,11 +5780,11 @@
   <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
     <value>dataGridView1</value>
   </data>
-  <data name="comboUnits.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
+  <data name="checkBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 12pt, style=Bold</value>
+  <data name="lblBillTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 28</value>
   </data>
   <data name="lblGoodBuy.Location" type="System.Drawing.Point, System.Drawing">
     <value>496, 12</value>
@@ -5807,8 +5798,8 @@
   <data name="lblVatType.Text" xml:space="preserve">
     <value>ضريبة القيمة المضافة :</value>
   </data>
-  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 59</value>
+  <data name="txtPayPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
   </data>
   <data name="label8.ToolTip" xml:space="preserve">
     <value />
@@ -5819,8 +5810,11 @@
   <data name="label13.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;BtnAddToBill.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;toolTip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtUnitPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="txtDiscount.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 24</value>
@@ -5843,8 +5837,8 @@
   <data name="lblVatType.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="chekBoxPercent.ToolTip" xml:space="preserve">
-    <value />
+  <data name="comboType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 27</value>
   </data>
   <data name="groupBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -5861,8 +5855,14 @@
   <data name="&gt;&gt;txtBones.Name" xml:space="preserve">
     <value>txtBones</value>
   </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 59</value>
+  </data>
   <data name="&gt;&gt;lblGoodTotal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="lblBillTotal.TabIndex" type="System.Int32, mscorlib">
     <value>91</value>
@@ -5884,9 +5884,6 @@
   </data>
   <data name="&gt;&gt;lblVat.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtDetails.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="txtDetails.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 26</value>
@@ -5912,8 +5909,11 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="&gt;&gt;lblBillTotal.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="comboType.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5936,8 +5936,8 @@
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>1072, 25</value>
   </data>
-  <data name="label4.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblGoodTotal.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="lblGoodBuy.Text" xml:space="preserve">
     <value>0</value>
@@ -5948,14 +5948,17 @@
   <data name="txtSender.ToolTip1" xml:space="preserve">
     <value />
   </data>
-  <data name="txtUnitPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="BtnNewGood.TabIndex" type="System.Int32, mscorlib">
     <value>77</value>
   </data>
-  <data name="label12.ToolTip1" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblGoodBuy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVatType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -5972,9 +5975,6 @@
   <data name="&gt;&gt;txtVendorBillNumber.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;txtSender.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
@@ -5990,8 +5990,8 @@
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txtDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnAddToBill.Name" xml:space="preserve">
     <value>BtnAddToBill</value>
@@ -6026,7 +6026,7 @@
   <data name="label19.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="label12.ToolTip" xml:space="preserve">
+  <data name="comboBanks.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;lblGoodBuy.ZOrder" xml:space="preserve">
@@ -6053,6 +6053,9 @@
   <metadata name="ColumnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="ColumnTotal.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="ColumnUnitPrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -6065,9 +6068,6 @@
   <metadata name="ColumnBarcode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="ColumnAverge.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -6075,7 +6075,7 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>29</value>
+    <value>57</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>en-PK</value>
@@ -6101,7 +6101,7 @@
   <metadata name="ColumnType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ColumnTotal.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

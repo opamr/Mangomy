@@ -1005,8 +1005,14 @@
     <EmbeddedResource Include="Vendors\DialogNewBill.resx">
       <DependentUpon>DialogNewBill.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogViewVendorPayments.en-PK.resx">
+      <DependentUpon>DialogViewVendorPayments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendors\DialogViewVendorPayments.resx">
       <DependentUpon>DialogViewVendorPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\FrmCurrentBills.en-PK.resx">
+      <DependentUpon>FrmCurrentBills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vendors\FrmCurrentBills.resx">
       <DependentUpon>FrmCurrentBills.cs</DependentUpon>
@@ -1056,6 +1062,9 @@
     <EmbeddedResource Include="ReportSnadSarf.rdlc" />
     <EmbeddedResource Include="ReportSnadKapd.rdlc" />
     <EmbeddedResource Include="ReportGoodsSelected.rdlc" />
+    <EmbeddedResource Include="Vendors\FrmVendorFinance.en-PK.resx">
+      <DependentUpon>FrmVendorFinance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendors\FrmVendorFinance.resx">
       <DependentUpon>FrmVendorFinance.cs</DependentUpon>
     </EmbeddedResource>

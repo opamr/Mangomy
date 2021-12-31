@@ -9,12 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyPro;
 using MyGeneration.dOOdads;
+using System.Threading;
+
 namespace MyApplication
 {
     public partial class FrmMain : Form
     {      
         public FrmMain()
         {
+            Thread.CurrentThread.CurrentUICulture =
+      System.Globalization.CultureInfo.GetCultureInfo("en-PK");
             InitializeComponent();
         }
         private void FrmMain_Load(object sender, EventArgs e)

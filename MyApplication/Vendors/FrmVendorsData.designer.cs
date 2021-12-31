@@ -99,11 +99,11 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(1189, 32);
+            this.label7.Location = new System.Drawing.Point(742, 29);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 19);
+            this.label7.Size = new System.Drawing.Size(128, 19);
             this.label7.TabIndex = 116;
-            this.label7.Text = "بحث بالاسم :";
+            this.label7.Text = "Search by Name :";
             // 
             // label1
             // 
@@ -111,18 +111,18 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(721, 32);
+            this.label1.Location = new System.Drawing.Point(386, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 19);
+            this.label1.Size = new System.Drawing.Size(138, 19);
             this.label1.TabIndex = 105;
-            this.label1.Text = "بحث بأسم المندوب :";
+            this.label1.Text = "Search By Sender :";
             // 
             // txtSender
             // 
             this.txtSender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtSender.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSender.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSender.Location = new System.Drawing.Point(509, 25);
+            this.txtSender.Location = new System.Drawing.Point(530, 25);
             this.txtSender.Name = "txtSender";
             this.txtSender.Size = new System.Drawing.Size(206, 26);
             this.txtSender.TabIndex = 104;
@@ -154,11 +154,10 @@
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(8, 88);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox1.Size = new System.Drawing.Size(1329, 588);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "بيانات الموردين";
+            this.groupBox1.Text = "Vendor Details ";
             // 
             // BtnViewAll
             // 
@@ -169,7 +168,7 @@
             this.BtnViewAll.Name = "BtnViewAll";
             this.BtnViewAll.Size = new System.Drawing.Size(130, 40);
             this.BtnViewAll.TabIndex = 126;
-            this.BtnViewAll.Text = "عرض الكل";
+            this.BtnViewAll.Text = "Show All";
             this.BtnViewAll.UseVisualStyleBackColor = true;
             this.BtnViewAll.Click += new System.EventHandler(this.BtnViewAll_Click);
             // 
@@ -201,7 +200,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(64, 76);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dataGridView1.RowHeadersVisible = false;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Maroon;
@@ -222,60 +221,60 @@
             // 
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewTextBoxColumn4.HeaderText = "م";
+            this.dataGridViewTextBoxColumn4.HeaderText = "SN";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.Width = 40;
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "اسم المورد";
+            this.Column1.HeaderText = "Vendor Name";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Width = 280;
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "العنوان";
+            this.Column2.HeaderText = "Address";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.Width = 200;
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "اسم المندوب";
+            this.Column3.HeaderText = "Sender";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.Width = 200;
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "جوال المندوب";
+            this.Column4.HeaderText = "Sender Phone";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Width = 130;
             // 
             // Column5
             // 
-            this.Column5.HeaderText = "صافي الحساب";
+            this.Column5.HeaderText = "Net Account";
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             this.Column5.Width = 120;
             // 
             // ColumnEdit
             // 
-            this.ColumnEdit.HeaderText = "تعديل بيانات";
+            this.ColumnEdit.HeaderText = "Edit";
             this.ColumnEdit.Name = "ColumnEdit";
             this.ColumnEdit.ReadOnly = true;
-            this.ColumnEdit.Text = "تعديل بيانات";
+            this.ColumnEdit.Text = "Edit";
             this.ColumnEdit.UseColumnTextForButtonValue = true;
             // 
             // ColumnFinance
             // 
-            this.ColumnFinance.HeaderText = "عرض الحسابات";
+            this.ColumnFinance.HeaderText = "Show Account";
             this.ColumnFinance.Name = "ColumnFinance";
             this.ColumnFinance.ReadOnly = true;
-            this.ColumnFinance.Text = "عرض الحسابات";
+            this.ColumnFinance.Text = "Show Account";
             this.ColumnFinance.UseColumnTextForButtonValue = true;
             // 
             // FrmVendorsData
@@ -317,6 +316,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button BtnViewAll;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -326,6 +326,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewButtonColumn ColumnEdit;
         private System.Windows.Forms.DataGridViewButtonColumn ColumnFinance;
-        private System.Windows.Forms.Button BtnViewAll;
     }
 }
