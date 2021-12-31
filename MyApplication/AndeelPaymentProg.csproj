@@ -905,8 +905,14 @@
     <EmbeddedResource Include="OutComing\FrmOutComing.resx">
       <DependentUpon>FrmOutComing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogAdvancedSearchPayments.en-PK.resx">
+      <DependentUpon>DialogAdvancedSearchPayments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Payments\DialogAdvancedSearchPayments.resx">
       <DependentUpon>DialogAdvancedSearchPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogNewOrder.en-PK.resx">
+      <DependentUpon>DialogNewOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Payments\DialogNewOrder.resx">
       <DependentUpon>DialogNewOrder.cs</DependentUpon>
