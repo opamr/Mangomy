@@ -993,8 +993,14 @@
     <EmbeddedResource Include="Vendors\DialogBillDetails.resx">
       <DependentUpon>DialogBillDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogGoodsReport.en-PK.resx">
+      <DependentUpon>DialogGoodsReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vendors\DialogGoodsReport.resx">
       <DependentUpon>DialogGoodsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors\DialogNewBill.en-PK.resx">
+      <DependentUpon>DialogNewBill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vendors\DialogNewBill.resx">
       <DependentUpon>DialogNewBill.cs</DependentUpon>

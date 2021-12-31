@@ -366,6 +366,9 @@
   <data name="columnHeader5.Text" xml:space="preserve">
     <value>Price</value>
   </data>
+  <data name="listView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="columnHeader3.Text" xml:space="preserve">
     <value>SN</value>
   </data>
@@ -384,8 +387,11 @@
   <data name="columnHeader7.Text" xml:space="preserve">
     <value>Bonus</value>
   </data>
-  <data name="listView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="groupBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Bill Items</value>
   </data>
   <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4303,5 +4309,8 @@
         /////////AAH/////////////////P/////////////////AP/////////////////z/////////////
         ///////////////////////8
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bill Items</value>
   </data>
 </root>
