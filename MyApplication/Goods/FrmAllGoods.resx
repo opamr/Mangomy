@@ -117,46 +117,159 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>47</value>
-  </metadata>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnViewAll.ToolTip" xml:space="preserve">
+    <value>تحديث الصفحة</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 26</value>
+  </data>
+  <data name="checkBoxStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1199, 96</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 83</value>
+  </data>
+  <data name="&gt;&gt;Column9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 96</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBarcode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnSearchByStore.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 63</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;BtnSearchByStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSearchGood.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboCurrrent.Items" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBoxStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 23</value>
+  </data>
+  <data name="BtnPrintSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 547</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;txtSearchGood.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnViewAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 547</value>
+  </data>
+  <data name="comboCurrrent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="comboCurrrent.Items2" xml:space="preserve">
+    <value>المنتهية</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="checkBoxStore.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>بحث بالفئة</value>
+  </data>
+  <data name="BtnNewGood.Text" xml:space="preserve">
+    <value>إضافة صنف جديد</value>
+  </data>
+  <data name="checkBoxStore.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;comboStores.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboStores.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAAAIAAoIAQAFgAAACgAAAAAAQAAAAIAAAEAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA
@@ -4668,4 +4781,637 @@
         //////////////////////////////////////////////////8=
 </value>
   </data>
+  <data name="&gt;&gt;txtSearchGood.Name" xml:space="preserve">
+    <value>txtSearchGood</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStore.Name" xml:space="preserve">
+    <value>checkBoxStore</value>
+  </data>
+  <data name="&gt;&gt;Column6.Name" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="Column11.HeaderText" xml:space="preserve">
+    <value>الإجمالي</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboCategory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnSearchByStore.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="comboCurrrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 27</value>
+  </data>
+  <data name="comboStores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1145, 124</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 179</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnViewAll.Name" xml:space="preserve">
+    <value>btnViewAll</value>
+  </data>
+  <data name="Column5.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="BtnPrintSelected.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="Column7.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="BtnNewGood.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="dataGridView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnViewAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboStores.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnViewAll.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtBarcode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSearchByStore.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;BtnNewGood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>سعر الشراء</value>
+  </data>
+  <data name="&gt;&gt;BtnNewGood.Name" xml:space="preserve">
+    <value>BtnNewGood</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>م</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintSelected.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboCurrrent.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 625</value>
+  </data>
+  <data name="&gt;&gt;BtnNewGood.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmAllGoods</value>
+  </data>
+  <data name="comboStores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 27</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1302, 362</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>العدد الحالي</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="BtnPrintSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="checkBoxStore.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboCurrrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboCurrrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnViewAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>إسم الصنف</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintSelected.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Column7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 26</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>الوحدة</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>بحث بكامل الاسم</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Column8.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="comboCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 27</value>
+  </data>
+  <data name="txtSearchGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="&gt;&gt;comboStores.Name" xml:space="preserve">
+    <value>comboStores</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="&gt;&gt;BtnNewGood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Column12.Name" xml:space="preserve">
+    <value>Column12</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="comboStores.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="BtnNewGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 547</value>
+  </data>
+  <data name="btnViewAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 40</value>
+  </data>
+  <data name="&gt;&gt;comboCurrrent.Name" xml:space="preserve">
+    <value>comboCurrrent</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintSelected.Name" xml:space="preserve">
+    <value>BtnPrintSelected</value>
+  </data>
+  <data name="comboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSearchByStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1099, 111</value>
+  </data>
+  <data name="&gt;&gt;BtnSearchByStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSearchByStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStore.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtSearchGood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSearchGood.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="comboCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;Column11.Name" xml:space="preserve">
+    <value>Column11</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>All Items</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="comboCurrrent.Items1" xml:space="preserve">
+    <value>الحالية</value>
+  </data>
+  <data name="Column4.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="BtnPrintSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 40</value>
+  </data>
+  <data name="BtnSearchByStore.ToolTip" xml:space="preserve">
+    <value>إضافة صنف جديد</value>
+  </data>
+  <data name="comboCurrrent.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="BtnNewGood.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnNewGood.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 23</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBarcode.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>بحث بجزء من الاسم</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBarcode.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="groupBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>النوع :</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBarcode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;comboStores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSearchGood.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnNewGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 63</value>
+  </data>
+  <data name="BtnPrintSelected.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 63</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 96</value>
+  </data>
+  <data name="&gt;&gt;btnViewAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSearchGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 26</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtSearchGood.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Column8.Name" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Column11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="comboCategory.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="comboCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>الفئة</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1047, 101</value>
+  </data>
+  <data name="checkBoxStore.Text" xml:space="preserve">
+    <value>تحديد مستودع :</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="&gt;&gt;comboCurrrent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboCurrrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>951, 124</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 662</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;Column9.Name" xml:space="preserve">
+    <value>Column9</value>
+  </data>
+  <data name="&gt;&gt;Column12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxStore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Name" xml:space="preserve">
+    <value>txtBarcode</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 96</value>
+  </data>
+  <data name="&gt;&gt;comboStores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboCurrrent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="comboStores.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="pictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewAll.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="comboCategory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>بحث باركود</value>
+  </data>
+  <data name="Column12.HeaderText" xml:space="preserve">
+    <value>تتبُع</value>
+  </data>
+  <data name="Column12.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;Column8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSearchByStore.Name" xml:space="preserve">
+    <value>BtnSearchByStore</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnViewAll.Text" xml:space="preserve">
+    <value>عرض كل الأصناف</value>
+  </data>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnPrintSelected.ToolTip" xml:space="preserve">
+    <value>تحديث الصفحة</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 63</value>
+  </data>
+  <data name="&gt;&gt;comboCategory.Name" xml:space="preserve">
+    <value>comboCategory</value>
+  </data>
+  <data name="&gt;&gt;Column7.Name" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="&gt;&gt;comboCategory.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 93</value>
+  </data>
+  <data name="comboBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 37</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="checkBoxStore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-PK</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>47</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

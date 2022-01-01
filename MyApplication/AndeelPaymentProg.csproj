@@ -740,32 +740,65 @@
     <Compile Include="Vendors\FrmVendorsData.designer.cs">
       <DependentUpon>FrmVendorsData.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Attentions\DialogRequiredGoods.en-PK.resx">
+      <DependentUpon>DialogRequiredGoods.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Attentions\DialogRequiredGoods.resx">
       <DependentUpon>DialogRequiredGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogAddBank.en-PK.resx">
+      <DependentUpon>DialogAddBank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Banks\DialogAddBank.resx">
       <DependentUpon>DialogAddBank.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogBankFinance.en-PK.resx">
+      <DependentUpon>DialogBankFinance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Banks\DialogBankFinance.resx">
       <DependentUpon>DialogBankFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks\DialogConvertMoney.en-PK.resx">
+      <DependentUpon>DialogConvertMoney.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Banks\DialogConvertMoney.resx">
       <DependentUpon>DialogConvertMoney.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Banks\FrmBanks.en-PK.resx">
+      <DependentUpon>FrmBanks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Banks\FrmBanks.resx">
       <DependentUpon>FrmBanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\DialogAddCustomer.en-PK.resx">
+      <DependentUpon>DialogAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customers\DialogAddCustomer.resx">
       <DependentUpon>DialogAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customers\DialogAddCustomerPaying.en-PK.resx">
+      <DependentUpon>DialogAddCustomerPaying.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customers\DialogAddCustomerPaying.resx">
       <DependentUpon>DialogAddCustomerPaying.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\FrmCustomerFinance.en-PK.resx">
+      <DependentUpon>FrmCustomerFinance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customers\FrmCustomerFinance.resx">
       <DependentUpon>FrmCustomerFinance.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customers\FrmCustomersData.en-PK.resx">
+      <DependentUpon>FrmCustomersData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customers\FrmCustomersData.resx">
       <DependentUpon>FrmCustomersData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddBones.en-PK.resx">
+      <DependentUpon>DialogAddBones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\DialogAddEmploee.en-PK.resx">
+      <DependentUpon>DialogAddEmploee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employees\DialogTakeSalary.resx">
       <DependentUpon>DialogTakeSalary.cs</DependentUpon>
@@ -784,6 +817,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.en-PK.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrintBankFinance.resx">
       <DependentUpon>FrmPrintBankFinance.cs</DependentUpon>
@@ -875,8 +911,14 @@
     <EmbeddedResource Include="FrmPrintVendorBill.resx">
       <DependentUpon>FrmPrintVendorBill.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogAddGood.en-PK.resx">
+      <DependentUpon>DialogAddGood.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Goods\DialogAddGood.resx">
       <DependentUpon>DialogAddGood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogCategory.en-PK.resx">
+      <DependentUpon>DialogCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Goods\DialogCategory.resx">
       <DependentUpon>DialogCategory.cs</DependentUpon>
@@ -890,17 +932,32 @@
     <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.aa.resx">
       <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.en-PK.resx">
+      <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Goods\DialogSelectGoodsBarCode.resx">
       <DependentUpon>DialogSelectGoodsBarCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Goods\DialogUnits.en-PK.resx">
       <DependentUpon>DialogUnits.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Goods\FrmAllGoods.en-PK.resx">
+      <DependentUpon>FrmAllGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\DialogAddOutComing.en-PK.resx">
+      <DependentUpon>DialogAddOutComing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OutComing\DialogAddOutComing.resx">
       <DependentUpon>DialogAddOutComing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\DialogOutItems.en-PK.resx">
+      <DependentUpon>DialogOutItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OutComing\DialogOutItems.resx">
       <DependentUpon>DialogOutItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutComing\FrmOutComing.en-PK.resx">
+      <DependentUpon>FrmOutComing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OutComing\FrmOutComing.resx">
       <DependentUpon>FrmOutComing.cs</DependentUpon>
@@ -917,11 +974,20 @@
     <EmbeddedResource Include="Payments\DialogNewOrder.resx">
       <DependentUpon>DialogNewOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogPaymentBillDetails.en-PK.resx">
+      <DependentUpon>DialogPaymentBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Payments\DialogPaymentBillDetails.resx">
       <DependentUpon>DialogPaymentBillDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Payments\DialogSearchCustomer.en-PK.resx">
+      <DependentUpon>DialogSearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Payments\DialogSearchCustomer.resx">
       <DependentUpon>DialogSearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments\FrmSearchPayments.en-PK.resx">
+      <DependentUpon>FrmSearchPayments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Payments\FrmSearchPayments.resx">
       <DependentUpon>FrmSearchPayments.cs</DependentUpon>

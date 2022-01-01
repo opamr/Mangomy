@@ -215,6 +215,9 @@
   <data name="chekbxMoney.Text" xml:space="preserve">
     <value>Amount</value>
   </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
   <data name="groupBox6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
@@ -362,6 +365,9 @@
   <data name="BtnPrintKashir.Text" xml:space="preserve">
     <value>Print Epson</value>
   </data>
+  <data name="BtnPrintKashir.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="BtnA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -371,17 +377,44 @@
   <data name="BtnA4.Text" xml:space="preserve">
     <value>Print A4</value>
   </data>
+  <data name="BtnA4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="BtnNewGood.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 28</value>
+  </data>
+  <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Search by Category :</value>
+  </data>
+  <data name="comboCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 24</value>
+  </data>
   <data name="lblTotalProfit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="comboPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 24</value>
+  </data>
   <data name="lblBuy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="lblBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="lblBuy.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="lblInsideCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -389,8 +422,50 @@
   <data name="lblCurrentCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="ColumnIndex.HeaderText" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="ColumnUnit.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="ColumnCount.HeaderText" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ColumnPrice.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="ColumnTotal.HeaderText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ColumnAfterVat.HeaderText" xml:space="preserve">
+    <value>With Tax</value>
+  </data>
+  <data name="ColumnProfit.HeaderText" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="ColumnDelete.HeaderText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="dataGridView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 25</value>
+  </data>
   <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 28</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Barcode :</value>
   </data>
   <data name="lblGoodTotal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -406,6 +481,15 @@
   </data>
   <data name="BtnSaveBill.Text" xml:space="preserve">
     <value>Save without Print</value>
+  </data>
+  <data name="BtnSaveBill.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Bill Item</value>
   </data>
   <data name="printPreviewDialog1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

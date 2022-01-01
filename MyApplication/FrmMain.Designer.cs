@@ -84,6 +84,12 @@
             this.الإعداداتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.بنودالمصروفاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.قيمةالضريبةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eNLanguageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -118,8 +124,8 @@
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.BackColor = System.Drawing.Color.OldLace;
-            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.إغلاقToolStripMenuItem,
             this.toolStripMenuItem12,
@@ -147,100 +153,89 @@
             this.toolStripMenuItem1,
             this.شؤونالموظفينToolStripMenuItem,
             this.toolStripMenuItem13,
-            this.الإعداداتToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.الإعداداتToolStripMenuItem,
+            this.toolStripMenuItem14,
+            this.toolStripMenuItem15,
+            this.toolStripMenuItem16,
+            this.toolStripMenuItem17,
+            this.toolStripMenuItem18});
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip1.Size = new System.Drawing.Size(1344, 27);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // إغلاقToolStripMenuItem
             // 
+            resources.ApplyResources(this.إغلاقToolStripMenuItem, "إغلاقToolStripMenuItem");
             this.إغلاقToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.تسجيلخروجToolStripMenuItem});
             this.إغلاقToolStripMenuItem.Name = "إغلاقToolStripMenuItem";
-            this.إغلاقToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
-            this.إغلاقToolStripMenuItem.Text = "إغلاق";
             // 
             // تسجيلخروجToolStripMenuItem
             // 
+            resources.ApplyResources(this.تسجيلخروجToolStripMenuItem, "تسجيلخروجToolStripMenuItem");
             this.تسجيلخروجToolStripMenuItem.Name = "تسجيلخروجToolStripMenuItem";
-            this.تسجيلخروجToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
-            this.تسجيلخروجToolStripMenuItem.Text = "تسجيل خروج";
             this.تسجيلخروجToolStripMenuItem.Click += new System.EventHandler(this.تسجيلخروجToolStripMenuItem_Click);
             // 
             // toolStripMenuItem12
             // 
+            resources.ApplyResources(this.toolStripMenuItem12, "toolStripMenuItem12");
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem12.Text = "|";
             // 
             // الرئيسيةToolStripMenuItem
             // 
+            resources.ApplyResources(this.الرئيسيةToolStripMenuItem, "الرئيسيةToolStripMenuItem");
             this.الرئيسيةToolStripMenuItem.Name = "الرئيسيةToolStripMenuItem";
-            this.الرئيسيةToolStripMenuItem.Size = new System.Drawing.Size(65, 23);
-            this.الرئيسيةToolStripMenuItem.Text = "الرئيسية";
             this.الرئيسيةToolStripMenuItem.Click += new System.EventHandler(this.الرئيسيةToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem3.Text = "|";
             // 
             // المستخدمينToolStripMenuItem
             // 
+            resources.ApplyResources(this.المستخدمينToolStripMenuItem, "المستخدمينToolStripMenuItem");
             this.المستخدمينToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.بياناتالمستخدمينToolStripMenuItem,
             this.تعديلبياناتيToolStripMenuItem});
             this.المستخدمينToolStripMenuItem.Name = "المستخدمينToolStripMenuItem";
-            this.المستخدمينToolStripMenuItem.Size = new System.Drawing.Size(83, 23);
-            this.المستخدمينToolStripMenuItem.Text = "المستخدمين";
             // 
             // بياناتالمستخدمينToolStripMenuItem
             // 
+            resources.ApplyResources(this.بياناتالمستخدمينToolStripMenuItem, "بياناتالمستخدمينToolStripMenuItem");
             this.بياناتالمستخدمينToolStripMenuItem.Name = "بياناتالمستخدمينToolStripMenuItem";
-            this.بياناتالمستخدمينToolStripMenuItem.Size = new System.Drawing.Size(174, 24);
-            this.بياناتالمستخدمينToolStripMenuItem.Text = "بيانات المستخدمين";
             this.بياناتالمستخدمينToolStripMenuItem.Click += new System.EventHandler(this.بياناتالمستخدمينToolStripMenuItem_Click);
             // 
             // تعديلبياناتيToolStripMenuItem
             // 
+            resources.ApplyResources(this.تعديلبياناتيToolStripMenuItem, "تعديلبياناتيToolStripMenuItem");
             this.تعديلبياناتيToolStripMenuItem.Name = "تعديلبياناتيToolStripMenuItem";
-            this.تعديلبياناتيToolStripMenuItem.Size = new System.Drawing.Size(174, 24);
-            this.تعديلبياناتيToolStripMenuItem.Text = "تعديل بياناتي";
             this.تعديلبياناتيToolStripMenuItem.Click += new System.EventHandler(this.تعديلبياناتيToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem2.Text = "|";
             // 
             // الموردينToolStripMenuItem
             // 
+            resources.ApplyResources(this.الموردينToolStripMenuItem, "الموردينToolStripMenuItem");
             this.الموردينToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.بياناتالموردينToolStripMenuItem});
             this.الموردينToolStripMenuItem.Name = "الموردينToolStripMenuItem";
-            this.الموردينToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
-            this.الموردينToolStripMenuItem.Text = "الموردين";
             // 
             // بياناتالموردينToolStripMenuItem
             // 
+            resources.ApplyResources(this.بياناتالموردينToolStripMenuItem, "بياناتالموردينToolStripMenuItem");
             this.بياناتالموردينToolStripMenuItem.Name = "بياناتالموردينToolStripMenuItem";
-            this.بياناتالموردينToolStripMenuItem.Size = new System.Drawing.Size(159, 24);
-            this.بياناتالموردينToolStripMenuItem.Text = "بيانات الموردين";
             this.بياناتالموردينToolStripMenuItem.Click += new System.EventHandler(this.بياناتالموردينToolStripMenuItem_Click);
             // 
             // toolStripMenuItem4
             // 
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem4.Text = "|";
             // 
             // عرضToolStripMenuItem
             // 
+            resources.ApplyResources(this.عرضToolStripMenuItem, "عرضToolStripMenuItem");
             this.عرضToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.الفئاتToolStripMenuItem,
             this.الوحداتToolStripMenuItem,
@@ -249,164 +244,141 @@
             this.المستودعاتToolStripMenuItem,
             this.تحويلبينالمستودعاتToolStripMenuItem});
             this.عرضToolStripMenuItem.Name = "عرضToolStripMenuItem";
-            this.عرضToolStripMenuItem.Size = new System.Drawing.Size(65, 23);
-            this.عرضToolStripMenuItem.Text = "الأصناف";
             // 
             // الفئاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.الفئاتToolStripMenuItem, "الفئاتToolStripMenuItem");
             this.الفئاتToolStripMenuItem.Name = "الفئاتToolStripMenuItem";
-            this.الفئاتToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.الفئاتToolStripMenuItem.Text = "الفئات";
             this.الفئاتToolStripMenuItem.Click += new System.EventHandler(this.الفئاتToolStripMenuItem_Click);
             // 
             // الوحداتToolStripMenuItem
             // 
+            resources.ApplyResources(this.الوحداتToolStripMenuItem, "الوحداتToolStripMenuItem");
             this.الوحداتToolStripMenuItem.Name = "الوحداتToolStripMenuItem";
-            this.الوحداتToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.الوحداتToolStripMenuItem.Text = "الوحدات";
             this.الوحداتToolStripMenuItem.Click += new System.EventHandler(this.الوحداتToolStripMenuItem_Click);
             // 
             // كلالأصنافالحاليةToolStripMenuItem
             // 
+            resources.ApplyResources(this.كلالأصنافالحاليةToolStripMenuItem, "كلالأصنافالحاليةToolStripMenuItem");
             this.كلالأصنافالحاليةToolStripMenuItem.Name = "كلالأصنافالحاليةToolStripMenuItem";
-            this.كلالأصنافالحاليةToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.كلالأصنافالحاليةToolStripMenuItem.Text = "بيانات الأصناف";
             this.كلالأصنافالحاليةToolStripMenuItem.Click += new System.EventHandler(this.كلالأصنافالحاليةToolStripMenuItem_Click);
             // 
             // طباعةاستيكرباركودToolStripMenuItem
             // 
+            resources.ApplyResources(this.طباعةاستيكرباركودToolStripMenuItem, "طباعةاستيكرباركودToolStripMenuItem");
             this.طباعةاستيكرباركودToolStripMenuItem.Name = "طباعةاستيكرباركودToolStripMenuItem";
-            this.طباعةاستيكرباركودToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.طباعةاستيكرباركودToolStripMenuItem.Text = "طباعة استيكر باركود";
             this.طباعةاستيكرباركودToolStripMenuItem.Click += new System.EventHandler(this.طباعةاستيكرباركودToolStripMenuItem_Click);
             // 
             // المستودعاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.المستودعاتToolStripMenuItem, "المستودعاتToolStripMenuItem");
             this.المستودعاتToolStripMenuItem.Name = "المستودعاتToolStripMenuItem";
-            this.المستودعاتToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.المستودعاتToolStripMenuItem.Text = "المستودعات";
             this.المستودعاتToolStripMenuItem.Click += new System.EventHandler(this.المستودعاتToolStripMenuItem_Click);
             // 
             // تحويلبينالمستودعاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.تحويلبينالمستودعاتToolStripMenuItem, "تحويلبينالمستودعاتToolStripMenuItem");
             this.تحويلبينالمستودعاتToolStripMenuItem.Name = "تحويلبينالمستودعاتToolStripMenuItem";
-            this.تحويلبينالمستودعاتToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
-            this.تحويلبينالمستودعاتToolStripMenuItem.Text = "تحويل بين المستودعات";
             this.تحويلبينالمستودعاتToolStripMenuItem.Click += new System.EventHandler(this.تحويلبينالمستودعاتToolStripMenuItem_Click);
             // 
             // toolStripMenuItem7
             // 
+            resources.ApplyResources(this.toolStripMenuItem7, "toolStripMenuItem7");
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem7.Text = "|";
             // 
             // فواتيرToolStripMenuItem
             // 
+            resources.ApplyResources(this.فواتيرToolStripMenuItem, "فواتيرToolStripMenuItem");
             this.فواتيرToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.إضافةفاتورةToolStripMenuItem,
             this.عرضفواتيرالشراءToolStripMenuItem});
             this.فواتيرToolStripMenuItem.Name = "فواتيرToolStripMenuItem";
-            this.فواتيرToolStripMenuItem.Size = new System.Drawing.Size(75, 23);
-            this.فواتيرToolStripMenuItem.Text = "المشتريات";
             // 
             // إضافةفاتورةToolStripMenuItem
             // 
+            resources.ApplyResources(this.إضافةفاتورةToolStripMenuItem, "إضافةفاتورةToolStripMenuItem");
             this.إضافةفاتورةToolStripMenuItem.Name = "إضافةفاتورةToolStripMenuItem";
-            this.إضافةفاتورةToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
-            this.إضافةفاتورةToolStripMenuItem.Text = "فاتورة جديدة";
             this.إضافةفاتورةToolStripMenuItem.Click += new System.EventHandler(this.إضافةفاتورةToolStripMenuItem_Click);
             // 
             // عرضفواتيرالشراءToolStripMenuItem
             // 
+            resources.ApplyResources(this.عرضفواتيرالشراءToolStripMenuItem, "عرضفواتيرالشراءToolStripMenuItem");
             this.عرضفواتيرالشراءToolStripMenuItem.Name = "عرضفواتيرالشراءToolStripMenuItem";
-            this.عرضفواتيرالشراءToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
-            this.عرضفواتيرالشراءToolStripMenuItem.Text = "عرض الفواتير";
             this.عرضفواتيرالشراءToolStripMenuItem.Click += new System.EventHandler(this.عرضفواتيرالشراءToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6
             // 
+            resources.ApplyResources(this.toolStripMenuItem6, "toolStripMenuItem6");
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem6.Text = "|";
             // 
             // العملاءToolStripMenuItem
             // 
+            resources.ApplyResources(this.العملاءToolStripMenuItem, "العملاءToolStripMenuItem");
             this.العملاءToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AddNewCustomermenu});
             this.العملاءToolStripMenuItem.Name = "العملاءToolStripMenuItem";
-            this.العملاءToolStripMenuItem.Size = new System.Drawing.Size(59, 23);
-            this.العملاءToolStripMenuItem.Text = "العملاء";
             // 
             // AddNewCustomermenu
             // 
+            resources.ApplyResources(this.AddNewCustomermenu, "AddNewCustomermenu");
             this.AddNewCustomermenu.Name = "AddNewCustomermenu";
-            this.AddNewCustomermenu.Size = new System.Drawing.Size(150, 24);
-            this.AddNewCustomermenu.Text = "بيانات العملاء";
             this.AddNewCustomermenu.Click += new System.EventHandler(this.AddNewCustomermenu_Click);
             // 
             // toolStripMenuItem5
             // 
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem5.Text = "|";
             // 
             // مبيعاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.مبيعاتToolStripMenuItem, "مبيعاتToolStripMenuItem");
             this.مبيعاتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.بحثيوميToolStripMenuItem,
             this.بحثمتقدمToolStripMenuItem});
             this.مبيعاتToolStripMenuItem.Name = "مبيعاتToolStripMenuItem";
-            this.مبيعاتToolStripMenuItem.Size = new System.Drawing.Size(64, 23);
-            this.مبيعاتToolStripMenuItem.Text = "المبيعات";
             // 
             // بحثيوميToolStripMenuItem
             // 
+            resources.ApplyResources(this.بحثيوميToolStripMenuItem, "بحثيوميToolStripMenuItem");
             this.بحثيوميToolStripMenuItem.Name = "بحثيوميToolStripMenuItem";
-            this.بحثيوميToolStripMenuItem.Size = new System.Drawing.Size(131, 24);
-            this.بحثيوميToolStripMenuItem.Text = "بحث يومي";
             this.بحثيوميToolStripMenuItem.Click += new System.EventHandler(this.بحثيوميToolStripMenuItem_Click);
             // 
             // بحثمتقدمToolStripMenuItem
             // 
+            resources.ApplyResources(this.بحثمتقدمToolStripMenuItem, "بحثمتقدمToolStripMenuItem");
             this.بحثمتقدمToolStripMenuItem.Name = "بحثمتقدمToolStripMenuItem";
-            this.بحثمتقدمToolStripMenuItem.Size = new System.Drawing.Size(131, 24);
-            this.بحثمتقدمToolStripMenuItem.Text = "بحث متقدم";
             this.بحثمتقدمToolStripMenuItem.Click += new System.EventHandler(this.بحثمتقدمToolStripMenuItem_Click);
             // 
             // toolStripMenuItem8
             // 
+            resources.ApplyResources(this.toolStripMenuItem8, "toolStripMenuItem8");
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem8.Text = "|";
             // 
             // المصروفاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.المصروفاتToolStripMenuItem, "المصروفاتToolStripMenuItem");
             this.المصروفاتToolStripMenuItem.Name = "المصروفاتToolStripMenuItem";
-            this.المصروفاتToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
-            this.المصروفاتToolStripMenuItem.Text = "المصروفات";
             this.المصروفاتToolStripMenuItem.Click += new System.EventHandler(this.المصروفاتToolStripMenuItem_Click);
             // 
             // toolStripMenuItem9
             // 
+            resources.ApplyResources(this.toolStripMenuItem9, "toolStripMenuItem9");
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem9.Text = "|";
             // 
             // الخزينةToolStripMenuItem
             // 
+            resources.ApplyResources(this.الخزينةToolStripMenuItem, "الخزينةToolStripMenuItem");
             this.الخزينةToolStripMenuItem.Name = "الخزينةToolStripMenuItem";
-            this.الخزينةToolStripMenuItem.Size = new System.Drawing.Size(54, 23);
-            this.الخزينةToolStripMenuItem.Text = "أرصدة";
             this.الخزينةToolStripMenuItem.Click += new System.EventHandler(this.الخزينةToolStripMenuItem_Click);
             // 
             // toolStripMenuItem11
             // 
+            resources.ApplyResources(this.toolStripMenuItem11, "toolStripMenuItem11");
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem11.Text = "|";
             // 
             // الحساباتToolStripMenuItem
             // 
+            resources.ApplyResources(this.الحساباتToolStripMenuItem, "الحساباتToolStripMenuItem");
             this.الحساباتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.الموقفالماليToolStripMenuItem,
             this.حساباتاجلهToolStripMenuItem,
@@ -414,143 +386,155 @@
             this.تقريرضريبةالقيمةالمضافةToolStripMenuItem,
             this.التقريرالشهريToolStripMenuItem});
             this.الحساباتToolStripMenuItem.Name = "الحساباتToolStripMenuItem";
-            this.الحساباتToolStripMenuItem.Size = new System.Drawing.Size(69, 23);
-            this.الحساباتToolStripMenuItem.Text = "الحسابات";
             // 
             // الموقفالماليToolStripMenuItem
             // 
+            resources.ApplyResources(this.الموقفالماليToolStripMenuItem, "الموقفالماليToolStripMenuItem");
             this.الموقفالماليToolStripMenuItem.Name = "الموقفالماليToolStripMenuItem";
-            this.الموقفالماليToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
-            this.الموقفالماليToolStripMenuItem.Text = "الموقف المالي";
             this.الموقفالماليToolStripMenuItem.Click += new System.EventHandler(this.الموقفالماليToolStripMenuItem_Click);
             // 
             // حساباتاجلهToolStripMenuItem
             // 
+            resources.ApplyResources(this.حساباتاجلهToolStripMenuItem, "حساباتاجلهToolStripMenuItem");
             this.حساباتاجلهToolStripMenuItem.Name = "حساباتاجلهToolStripMenuItem";
-            this.حساباتاجلهToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
-            this.حساباتاجلهToolStripMenuItem.Text = "الديون الخارجية";
             this.حساباتاجلهToolStripMenuItem.Click += new System.EventHandler(this.حساباتاجلهToolStripMenuItem_Click);
             // 
             // ربحيةفاتورةمبيعاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.ربحيةفاتورةمبيعاتToolStripMenuItem, "ربحيةفاتورةمبيعاتToolStripMenuItem");
             this.ربحيةفاتورةمبيعاتToolStripMenuItem.Name = "ربحيةفاتورةمبيعاتToolStripMenuItem";
-            this.ربحيةفاتورةمبيعاتToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
-            this.ربحيةفاتورةمبيعاتToolStripMenuItem.Text = "أرباح الميبعات";
             this.ربحيةفاتورةمبيعاتToolStripMenuItem.Click += new System.EventHandler(this.ربحيةفاتورةمبيعاتToolStripMenuItem_Click);
             // 
             // تقريرضريبةالقيمةالمضافةToolStripMenuItem
             // 
+            resources.ApplyResources(this.تقريرضريبةالقيمةالمضافةToolStripMenuItem, "تقريرضريبةالقيمةالمضافةToolStripMenuItem");
             this.تقريرضريبةالقيمةالمضافةToolStripMenuItem.Name = "تقريرضريبةالقيمةالمضافةToolStripMenuItem";
-            this.تقريرضريبةالقيمةالمضافةToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
-            this.تقريرضريبةالقيمةالمضافةToolStripMenuItem.Text = "تقرير ضريبة القيمة المضافة";
             this.تقريرضريبةالقيمةالمضافةToolStripMenuItem.Click += new System.EventHandler(this.تقريرضريبةالقيمةالمضافةToolStripMenuItem_Click);
             // 
             // التقريرالشهريToolStripMenuItem
             // 
+            resources.ApplyResources(this.التقريرالشهريToolStripMenuItem, "التقريرالشهريToolStripMenuItem");
             this.التقريرالشهريToolStripMenuItem.Name = "التقريرالشهريToolStripMenuItem";
-            this.التقريرالشهريToolStripMenuItem.Size = new System.Drawing.Size(225, 24);
-            this.التقريرالشهريToolStripMenuItem.Text = "التقرير الشهري";
             this.التقريرالشهريToolStripMenuItem.Click += new System.EventHandler(this.التقريرالشهريToolStripMenuItem_Click);
             // 
             // toolStripMenuItem10
             // 
+            resources.ApplyResources(this.toolStripMenuItem10, "toolStripMenuItem10");
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem10.Text = "|";
             // 
             // التنبيهاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.التنبيهاتToolStripMenuItem, "التنبيهاتToolStripMenuItem");
             this.التنبيهاتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.قائمةالطلبToolStripMenuItem1});
             this.التنبيهاتToolStripMenuItem.Name = "التنبيهاتToolStripMenuItem";
-            this.التنبيهاتToolStripMenuItem.Size = new System.Drawing.Size(66, 23);
-            this.التنبيهاتToolStripMenuItem.Text = "التنبيهات";
             // 
             // قائمةالطلبToolStripMenuItem1
             // 
+            resources.ApplyResources(this.قائمةالطلبToolStripMenuItem1, "قائمةالطلبToolStripMenuItem1");
             this.قائمةالطلبToolStripMenuItem1.Name = "قائمةالطلبToolStripMenuItem1";
-            this.قائمةالطلبToolStripMenuItem1.Size = new System.Drawing.Size(139, 24);
-            this.قائمةالطلبToolStripMenuItem1.Text = "قائمة الطلب";
             this.قائمةالطلبToolStripMenuItem1.Click += new System.EventHandler(this.قائمةالطلبToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem1
             // 
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem1.Text = "|";
             // 
             // شؤونالموظفينToolStripMenuItem
             // 
+            resources.ApplyResources(this.شؤونالموظفينToolStripMenuItem, "شؤونالموظفينToolStripMenuItem");
             this.شؤونالموظفينToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.بياناتالموظفينToolStripMenuItem,
             this.حساباتالموظفينToolStripMenuItem,
             this.أرشيفالموظفينToolStripMenuItem,
             this.تسليمراتبToolStripMenuItem});
             this.شؤونالموظفينToolStripMenuItem.Name = "شؤونالموظفينToolStripMenuItem";
-            this.شؤونالموظفينToolStripMenuItem.Size = new System.Drawing.Size(106, 23);
-            this.شؤونالموظفينToolStripMenuItem.Text = "شؤون الموظفين";
             // 
             // بياناتالموظفينToolStripMenuItem
             // 
+            resources.ApplyResources(this.بياناتالموظفينToolStripMenuItem, "بياناتالموظفينToolStripMenuItem");
             this.بياناتالموظفينToolStripMenuItem.Name = "بياناتالموظفينToolStripMenuItem";
-            this.بياناتالموظفينToolStripMenuItem.Size = new System.Drawing.Size(170, 24);
-            this.بياناتالموظفينToolStripMenuItem.Text = "بيانات الموظفين";
             this.بياناتالموظفينToolStripMenuItem.Click += new System.EventHandler(this.بياناتالموظفينToolStripMenuItem_Click);
             // 
             // حساباتالموظفينToolStripMenuItem
             // 
+            resources.ApplyResources(this.حساباتالموظفينToolStripMenuItem, "حساباتالموظفينToolStripMenuItem");
             this.حساباتالموظفينToolStripMenuItem.Name = "حساباتالموظفينToolStripMenuItem";
-            this.حساباتالموظفينToolStripMenuItem.Size = new System.Drawing.Size(170, 24);
-            this.حساباتالموظفينToolStripMenuItem.Text = "حسابات الموظفين";
             this.حساباتالموظفينToolStripMenuItem.Click += new System.EventHandler(this.حساباتالموظفينToolStripMenuItem_Click);
             // 
             // أرشيفالموظفينToolStripMenuItem
             // 
+            resources.ApplyResources(this.أرشيفالموظفينToolStripMenuItem, "أرشيفالموظفينToolStripMenuItem");
             this.أرشيفالموظفينToolStripMenuItem.Name = "أرشيفالموظفينToolStripMenuItem";
-            this.أرشيفالموظفينToolStripMenuItem.Size = new System.Drawing.Size(170, 24);
-            this.أرشيفالموظفينToolStripMenuItem.Text = "أرشيف الموظفين";
             this.أرشيفالموظفينToolStripMenuItem.Click += new System.EventHandler(this.أرشيفالموظفينToolStripMenuItem_Click);
             // 
             // تسليمراتبToolStripMenuItem
             // 
+            resources.ApplyResources(this.تسليمراتبToolStripMenuItem, "تسليمراتبToolStripMenuItem");
             this.تسليمراتبToolStripMenuItem.Name = "تسليمراتبToolStripMenuItem";
-            this.تسليمراتبToolStripMenuItem.Size = new System.Drawing.Size(170, 24);
-            this.تسليمراتبToolStripMenuItem.Text = "تسليم راتب";
             this.تسليمراتبToolStripMenuItem.Click += new System.EventHandler(this.تسليمراتبToolStripMenuItem_Click);
             // 
             // toolStripMenuItem13
             // 
+            resources.ApplyResources(this.toolStripMenuItem13, "toolStripMenuItem13");
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(24, 23);
-            this.toolStripMenuItem13.Text = "|";
             // 
             // الإعداداتToolStripMenuItem
             // 
+            resources.ApplyResources(this.الإعداداتToolStripMenuItem, "الإعداداتToolStripMenuItem");
             this.الإعداداتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.بنودالمصروفاتToolStripMenuItem,
-            this.قيمةالضريبةToolStripMenuItem});
+            this.قيمةالضريبةToolStripMenuItem,
+            this.eNLanguageToolStripMenuItem});
             this.الإعداداتToolStripMenuItem.Name = "الإعداداتToolStripMenuItem";
-            this.الإعداداتToolStripMenuItem.Size = new System.Drawing.Size(70, 23);
-            this.الإعداداتToolStripMenuItem.Text = "الإعدادات";
             // 
             // بنودالمصروفاتToolStripMenuItem
             // 
+            resources.ApplyResources(this.بنودالمصروفاتToolStripMenuItem, "بنودالمصروفاتToolStripMenuItem");
             this.بنودالمصروفاتToolStripMenuItem.Name = "بنودالمصروفاتToolStripMenuItem";
-            this.بنودالمصروفاتToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
-            this.بنودالمصروفاتToolStripMenuItem.Text = "بنود المصروفات";
             this.بنودالمصروفاتToolStripMenuItem.Click += new System.EventHandler(this.بنودالمصروفاتToolStripMenuItem_Click);
             // 
             // قيمةالضريبةToolStripMenuItem
             // 
+            resources.ApplyResources(this.قيمةالضريبةToolStripMenuItem, "قيمةالضريبةToolStripMenuItem");
             this.قيمةالضريبةToolStripMenuItem.Name = "قيمةالضريبةToolStripMenuItem";
-            this.قيمةالضريبةToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
-            this.قيمةالضريبةToolStripMenuItem.Text = "قيمة الضريبة";
             this.قيمةالضريبةToolStripMenuItem.Click += new System.EventHandler(this.قيمةالضريبةToolStripMenuItem_Click);
+            // 
+            // eNLanguageToolStripMenuItem
+            // 
+            resources.ApplyResources(this.eNLanguageToolStripMenuItem, "eNLanguageToolStripMenuItem");
+            this.eNLanguageToolStripMenuItem.Name = "eNLanguageToolStripMenuItem";
+            this.eNLanguageToolStripMenuItem.Click += new System.EventHandler(this.eNLanguageToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem14
+            // 
+            resources.ApplyResources(this.toolStripMenuItem14, "toolStripMenuItem14");
+            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
+            // 
+            // toolStripMenuItem15
+            // 
+            resources.ApplyResources(this.toolStripMenuItem15, "toolStripMenuItem15");
+            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
+            // 
+            // toolStripMenuItem16
+            // 
+            resources.ApplyResources(this.toolStripMenuItem16, "toolStripMenuItem16");
+            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
+            // 
+            // toolStripMenuItem17
+            // 
+            resources.ApplyResources(this.toolStripMenuItem17, "toolStripMenuItem17");
+            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
+            // 
+            // toolStripMenuItem18
+            // 
+            resources.ApplyResources(this.toolStripMenuItem18, "toolStripMenuItem18");
+            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.lblRequiredGoods);
             this.panel1.Controls.Add(this.label6);
@@ -561,326 +545,207 @@
             this.panel1.Controls.Add(this.lblUser);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1344, 700);
-            this.panel1.TabIndex = 2;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.BtnEmpPayMoney);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.BtnAddComing);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox1.Location = new System.Drawing.Point(1043, 467);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(258, 180);
-            this.groupBox1.TabIndex = 120;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "المصروفات";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
+            resources.ApplyResources(this.label5, "label5");
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(15, 135);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 23);
-            this.label5.TabIndex = 121;
-            this.label5.Text = "F 6";
             // 
             // BtnEmpPayMoney
             // 
+            resources.ApplyResources(this.BtnEmpPayMoney, "BtnEmpPayMoney");
             this.BtnEmpPayMoney.BackColor = System.Drawing.Color.White;
             this.BtnEmpPayMoney.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            this.BtnEmpPayMoney.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnEmpPayMoney.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEmpPayMoney.ForeColor = System.Drawing.Color.White;
-            this.BtnEmpPayMoney.Location = new System.Drawing.Point(52, 118);
             this.BtnEmpPayMoney.Name = "BtnEmpPayMoney";
-            this.BtnEmpPayMoney.Size = new System.Drawing.Size(181, 50);
-            this.BtnEmpPayMoney.TabIndex = 120;
-            this.BtnEmpPayMoney.Text = "سند صرف ( راتب موظف )";
             this.BtnEmpPayMoney.UseVisualStyleBackColor = false;
             this.BtnEmpPayMoney.Click += new System.EventHandler(this.تسليمراتبToolStripMenuItem_Click);
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            resources.ApplyResources(this.label8, "label8");
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Blue;
-            this.label8.Location = new System.Drawing.Point(15, 51);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 23);
-            this.label8.TabIndex = 105;
-            this.label8.Text = "F 5";
             // 
             // BtnAddComing
             // 
+            resources.ApplyResources(this.BtnAddComing, "BtnAddComing");
             this.BtnAddComing.BackColor = System.Drawing.Color.White;
             this.BtnAddComing.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            this.BtnAddComing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAddComing.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAddComing.ForeColor = System.Drawing.Color.White;
-            this.BtnAddComing.Location = new System.Drawing.Point(52, 36);
             this.BtnAddComing.Name = "BtnAddComing";
-            this.BtnAddComing.Size = new System.Drawing.Size(181, 50);
-            this.BtnAddComing.TabIndex = 119;
-            this.BtnAddComing.Text = "اضافة مصروفات يومية";
             this.BtnAddComing.UseVisualStyleBackColor = false;
             this.BtnAddComing.Click += new System.EventHandler(this.BtnAddComing_Click);
             // 
             // lblRequiredGoods
             // 
+            resources.ApplyResources(this.lblRequiredGoods, "lblRequiredGoods");
             this.lblRequiredGoods.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblRequiredGoods.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblRequiredGoods.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRequiredGoods.ForeColor = System.Drawing.Color.Black;
-            this.lblRequiredGoods.Location = new System.Drawing.Point(586, 139);
             this.lblRequiredGoods.Name = "lblRequiredGoods";
-            this.lblRequiredGoods.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblRequiredGoods.Size = new System.Drawing.Size(197, 43);
-            this.lblRequiredGoods.TabIndex = 117;
-            this.lblRequiredGoods.Text = "0";
-            this.lblRequiredGoods.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblRequiredGoods.Click += new System.EventHandler(this.قائمةالطلبToolStripMenuItem1_Click);
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
+            resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(601, 112);
             this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(168, 22);
-            this.label6.TabIndex = 118;
-            this.label6.Text = "تنبيهات الأصناف المطلوبة";
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.BtnNewBill);
             this.groupBox3.Controls.Add(this.BtnNewCustomerPay);
-            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox3.Location = new System.Drawing.Point(1043, 89);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox3.Size = new System.Drawing.Size(258, 180);
-            this.groupBox3.TabIndex = 105;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "العملاء";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(15, 129);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 23);
-            this.label1.TabIndex = 106;
-            this.label1.Text = "F 2";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(15, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 23);
-            this.label2.TabIndex = 105;
-            this.label2.Text = "F 1";
             // 
             // BtnNewBill
             // 
+            resources.ApplyResources(this.BtnNewBill, "BtnNewBill");
             this.BtnNewBill.BackColor = System.Drawing.Color.White;
             this.BtnNewBill.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            this.BtnNewBill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnNewBill.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNewBill.ForeColor = System.Drawing.Color.White;
-            this.BtnNewBill.Location = new System.Drawing.Point(52, 28);
             this.BtnNewBill.Name = "BtnNewBill";
-            this.BtnNewBill.Size = new System.Drawing.Size(181, 50);
-            this.BtnNewBill.TabIndex = 102;
-            this.BtnNewBill.Text = "فاتورة مبيعات جديدة";
             this.BtnNewBill.UseVisualStyleBackColor = false;
             this.BtnNewBill.Click += new System.EventHandler(this.BtnNewBill_Click);
             // 
             // BtnNewCustomerPay
             // 
+            resources.ApplyResources(this.BtnNewCustomerPay, "BtnNewCustomerPay");
             this.BtnNewCustomerPay.BackColor = System.Drawing.Color.White;
-            this.BtnNewCustomerPay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnNewCustomerPay.BackgroundImage")));
-            this.BtnNewCustomerPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnNewCustomerPay.ForeColor = System.Drawing.Color.White;
-            this.BtnNewCustomerPay.Location = new System.Drawing.Point(52, 114);
             this.BtnNewCustomerPay.Name = "BtnNewCustomerPay";
-            this.BtnNewCustomerPay.Size = new System.Drawing.Size(181, 50);
-            this.BtnNewCustomerPay.TabIndex = 94;
-            this.BtnNewCustomerPay.Text = "سند قبض ( عميل )";
             this.BtnNewCustomerPay.UseVisualStyleBackColor = false;
             this.BtnNewCustomerPay.Click += new System.EventHandler(this.BtnNewCustomerPay_Click);
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.BtnNewVendorBill);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.BtnAddVendorPay);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox2.Location = new System.Drawing.Point(1043, 278);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(258, 180);
-            this.groupBox2.TabIndex = 104;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "الموردين";
             // 
             // BtnNewVendorBill
             // 
+            resources.ApplyResources(this.BtnNewVendorBill, "BtnNewVendorBill");
             this.BtnNewVendorBill.BackColor = System.Drawing.Color.White;
-            this.BtnNewVendorBill.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnNewVendorBill.BackgroundImage")));
-            this.BtnNewVendorBill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnNewVendorBill.ForeColor = System.Drawing.Color.White;
-            this.BtnNewVendorBill.Location = new System.Drawing.Point(52, 28);
             this.BtnNewVendorBill.Name = "BtnNewVendorBill";
-            this.BtnNewVendorBill.Size = new System.Drawing.Size(181, 50);
-            this.BtnNewVendorBill.TabIndex = 95;
-            this.BtnNewVendorBill.Text = "فاتورة مشتريات جديدة";
             this.BtnNewVendorBill.UseVisualStyleBackColor = false;
             this.BtnNewVendorBill.Click += new System.EventHandler(this.إضافةفاتورةToolStripMenuItem_Click);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(15, 129);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 23);
-            this.label3.TabIndex = 106;
-            this.label3.Text = "F 4";
             // 
             // BtnAddVendorPay
             // 
+            resources.ApplyResources(this.BtnAddVendorPay, "BtnAddVendorPay");
             this.BtnAddVendorPay.BackColor = System.Drawing.Color.White;
-            this.BtnAddVendorPay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAddVendorPay.BackgroundImage")));
-            this.BtnAddVendorPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnAddVendorPay.ForeColor = System.Drawing.Color.White;
-            this.BtnAddVendorPay.Location = new System.Drawing.Point(52, 114);
             this.BtnAddVendorPay.Name = "BtnAddVendorPay";
-            this.BtnAddVendorPay.Size = new System.Drawing.Size(181, 50);
-            this.BtnAddVendorPay.TabIndex = 94;
-            this.BtnAddVendorPay.Text = "سند صرف ( مورد )";
             this.BtnAddVendorPay.UseVisualStyleBackColor = false;
             this.BtnAddVendorPay.Click += new System.EventHandler(this.BtnAddVendorPay_Click);
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(15, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 23);
-            this.label4.TabIndex = 105;
-            this.label4.Text = "F 3";
             // 
             // BtnDailyReport
             // 
+            resources.ApplyResources(this.BtnDailyReport, "BtnDailyReport");
             this.BtnDailyReport.BackColor = System.Drawing.Color.White;
             this.BtnDailyReport.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            this.BtnDailyReport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnDailyReport.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDailyReport.ForeColor = System.Drawing.Color.White;
-            this.BtnDailyReport.Location = new System.Drawing.Point(164, 330);
             this.BtnDailyReport.Name = "BtnDailyReport";
-            this.BtnDailyReport.Size = new System.Drawing.Size(197, 55);
-            this.BtnDailyReport.TabIndex = 100;
-            this.BtnDailyReport.Text = "التقرير اليومي";
             this.BtnDailyReport.UseVisualStyleBackColor = false;
             this.BtnDailyReport.Click += new System.EventHandler(this.BtnDailyReport_Click);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            resources.ApplyResources(this.label7, "label7");
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label7.Location = new System.Drawing.Point(184, 151);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 19);
-            this.label7.TabIndex = 48;
-            this.label7.Text = "المستخدم الحالي :";
             // 
             // lblUser
             // 
-            this.lblUser.AutoSize = true;
+            resources.ApplyResources(this.lblUser, "lblUser");
             this.lblUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblUser.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lblUser.Location = new System.Drawing.Point(293, 148);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(54, 22);
-            this.lblUser.TabIndex = 47;
-            this.lblUser.Text = "name";
             // 
             // pictureBox2
             // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.BackgroundImage = global::MyApplication.Properties.Resources.Footer;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 663);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1344, 37);
-            this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BackgroundImage = global::MyApplication.Properties.Resources.Header;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1344, 83);
-            this.pictureBox1.TabIndex = 101;
             this.pictureBox1.TabStop = false;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1344, 727);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "FrmMain";
-            this.Text = "الرئيسية";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmMain_KeyDown);
@@ -981,5 +846,11 @@
         private System.Windows.Forms.Button BtnAddComing;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnEmpPayMoney;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem17;
+        private System.Windows.Forms.ToolStripMenuItem eNLanguageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem18;
     }
 }

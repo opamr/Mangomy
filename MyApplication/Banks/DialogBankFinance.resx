@@ -117,31 +117,99 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnMadyn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnDaen.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnRaseed.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;ColumnDaen.Name" xml:space="preserve">
+    <value>ColumnDaen</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dateTimePicker2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>بحث بالمدة</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 85</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColumnMadyn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 26</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>كشف حساب</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 19</value>
+  </data>
+  <data name="btnSearchByDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Name" xml:space="preserve">
+    <value>btnSearchByDate</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEA3gAAAAEAIAAolAMAFgAAACgAAADeAAAAAAIAAAEAIAAAAAAAAHgDABMLAAATCwAAAAAAAAAA
@@ -4056,4 +4124,364 @@
         ///////////////////////8
 </value>
   </data>
+  <data name="dataGridView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 57</value>
+  </data>
+  <data name="&gt;&gt;ColumnMadyn.Name" xml:space="preserve">
+    <value>ColumnMadyn</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSearchByDate.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="dateTimePicker1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="ColumnDaen.HeaderText" xml:space="preserve">
+    <value>صرف</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 500</value>
+  </data>
+  <data name="&gt;&gt;ColumnDaen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnEdit.Text" xml:space="preserve">
+    <value>تعديل بيانات</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>من :</value>
+  </data>
+  <data name="BtnEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>نوع المستند</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogBankFinance</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 30</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker2.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColumnRaseed.HeaderText" xml:space="preserve">
+    <value>الرصيد</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>البيان</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;Column7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ColumnDaen.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Name" xml:space="preserve">
+    <value>BtnEdit</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 32</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="Column7.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="Column4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>إلى :</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 30</value>
+  </data>
+  <data name="lblName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColumnMadyn.HeaderText" xml:space="preserve">
+    <value>قبض</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ColumnMadyn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColumnRaseed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 12</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1093, 465</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 32</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Name" xml:space="preserve">
+    <value>BtnPrint</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Double Click</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="dateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="ColumnRaseed.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dateTimePicker1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 12</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="btnSearchByDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1124, 662</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="dateTimePicker2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColumnRaseed.Name" xml:space="preserve">
+    <value>ColumnRaseed</value>
+  </data>
+  <data name="BtnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="dateTimePicker1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSearchByDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1105, 547</value>
+  </data>
+  <data name="&gt;&gt;Column7.Name" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <metadata name="ColumnRaseed.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-PK</value>
+  </metadata>
+  <metadata name="ColumnMadyn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnDaen.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

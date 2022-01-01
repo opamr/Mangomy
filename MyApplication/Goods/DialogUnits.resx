@@ -124,15 +124,24 @@
   <data name="columnHeader1.Text" xml:space="preserve">
     <value>الوحدة</value>
   </data>
-  <data name="&gt;&gt;txtCategoryName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>457, 518</value>
+  </data>
   <data name="BtnShowAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
   </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="listView3.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnSaveCategory.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -168,9 +177,6 @@
   <data name="&gt;&gt;btnSaveCategory.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnSaveEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
   <data name="btnSaveEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 4</value>
   </data>
@@ -180,8 +186,8 @@
   <data name="btnSaveCategory.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="btnSaveEdit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="txtCategoryName.Size" type="System.Drawing.Size, System.Drawing">
     <value>299, 26</value>
@@ -213,9 +219,6 @@
   <data name="BtnShowAdd.TabIndex" type="System.Int32, mscorlib">
     <value>74</value>
   </data>
-  <data name="&gt;&gt;BtnShowAdd.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="btnSaveEdit.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>
   </data>
@@ -239,9 +242,6 @@
   </data>
   <data name="&gt;&gt;columnHeader11.Name" xml:space="preserve">
     <value>columnHeader11</value>
-  </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtCategoryName.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -294,8 +294,14 @@
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="columnHeader12.Width" type="System.Int32, mscorlib">
     <value>59</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 462</value>
   </data>
   <data name="txtEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 12</value>
@@ -303,8 +309,8 @@
   <data name="BtnShowAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>397, 24</value>
   </data>
-  <data name="&gt;&gt;btnSaveCategory.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
   </data>
   <data name="panel2.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -318,14 +324,11 @@
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="txtCategoryName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 18</value>
-  </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="btnSaveEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
   </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
@@ -345,8 +348,8 @@
   <data name="txtEdit.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="txtEdit.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="&gt;&gt;listView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;listView3.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -4271,11 +4274,11 @@
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>72</value>
   </data>
-  <data name="&gt;&gt;listView3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;txtCategoryName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtEdit.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="txtCategoryName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 18</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -4289,9 +4292,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>وحدة الصنف</value>
   </data>
-  <data name="&gt;&gt;BtnShowAdd.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="columnHeader11.Text" xml:space="preserve">
     <value>Id</value>
   </data>
@@ -4301,8 +4301,8 @@
   <data name="columnHeader1.Width" type="System.Int32, mscorlib">
     <value>308</value>
   </data>
-  <data name="&gt;&gt;columnHeader12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;listView3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="listView3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 11.25pt, style=Bold</value>
@@ -4340,35 +4340,35 @@
   <data name="txtCategoryName.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;columnHeader12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 462</value>
+  <data name="txtEdit.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="BtnShowAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>457, 518</value>
+  <data name="&gt;&gt;btnSaveCategory.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;listView3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnShowAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="columnHeader12.Text" xml:space="preserve">
     <value>م</value>
   </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnSaveEdit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <data name="btnSaveCategory.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;BtnShowAdd.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnSaveCategory.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>

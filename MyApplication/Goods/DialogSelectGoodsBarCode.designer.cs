@@ -43,15 +43,15 @@
             this.lblBarcode = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPayPrice = new System.Windows.Forms.TextBox();
-            this.BtnSave = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCount = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BtnPrint = new System.Windows.Forms.Button();
             this.BtnNewList = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BtnSave = new System.Windows.Forms.Button();
             this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -152,14 +152,6 @@
             this.txtPayPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPayPrice.Name = "txtPayPrice";
             // 
-            // BtnSave
-            // 
-            resources.ApplyResources(this.BtnSave, "BtnSave");
-            this.BtnSave.BackgroundImage = global::MyApplication.Properties.Resources.IconSave;
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.UseVisualStyleBackColor = true;
-            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
-            // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
@@ -202,26 +194,6 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
-            // BtnPrint
-            // 
-            resources.ApplyResources(this.BtnPrint, "BtnPrint");
-            this.BtnPrint.BackColor = System.Drawing.Color.White;
-            this.BtnPrint.BackgroundImage = global::MyApplication.Properties.Resources.Print;
-            this.BtnPrint.ForeColor = System.Drawing.Color.White;
-            this.BtnPrint.Name = "BtnPrint";
-            this.BtnPrint.UseVisualStyleBackColor = false;
-            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
-            // 
-            // BtnNewList
-            // 
-            resources.ApplyResources(this.BtnNewList, "BtnNewList");
-            this.BtnNewList.BackColor = System.Drawing.Color.White;
-            this.BtnNewList.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            this.BtnNewList.ForeColor = System.Drawing.Color.White;
-            this.BtnNewList.Name = "BtnNewList";
-            this.BtnNewList.UseVisualStyleBackColor = false;
-            this.BtnNewList.Click += new System.EventHandler(this.BtnNewList_Click);
-            // 
             // dataGridView1
             // 
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
@@ -263,6 +235,34 @@
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             this.dataGridView1.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView1_EditingControlShowing);
+            // 
+            // BtnPrint
+            // 
+            resources.ApplyResources(this.BtnPrint, "BtnPrint");
+            this.BtnPrint.BackColor = System.Drawing.Color.White;
+            this.BtnPrint.BackgroundImage = global::MyApplication.Properties.Resources.Print;
+            this.BtnPrint.ForeColor = System.Drawing.Color.White;
+            this.BtnPrint.Name = "BtnPrint";
+            this.BtnPrint.UseVisualStyleBackColor = false;
+            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
+            // 
+            // BtnNewList
+            // 
+            resources.ApplyResources(this.BtnNewList, "BtnNewList");
+            this.BtnNewList.BackColor = System.Drawing.Color.White;
+            this.BtnNewList.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
+            this.BtnNewList.ForeColor = System.Drawing.Color.White;
+            this.BtnNewList.Name = "BtnNewList";
+            this.BtnNewList.UseVisualStyleBackColor = false;
+            this.BtnNewList.Click += new System.EventHandler(this.BtnNewList_Click);
+            // 
+            // BtnSave
+            // 
+            resources.ApplyResources(this.BtnSave, "BtnSave");
+            this.BtnSave.BackgroundImage = global::MyApplication.Properties.Resources.IconSave;
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.UseVisualStyleBackColor = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // ColumnID
             // 

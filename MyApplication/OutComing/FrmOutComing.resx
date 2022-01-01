@@ -117,8 +117,767 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSearchByDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 83</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtWasl.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="dateTimePicker2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="columnHeader8.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="columnHeader1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="listView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pictureBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="comboBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;BtnShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="lblAllOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader6.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="txtWasl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>بحث بالمدة</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 85</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 19</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="txtWasl.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="columnHeader7.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>إلى :</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>مصروفات اليوم</value>
+  </data>
+  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>البند :</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Name" xml:space="preserve">
+    <value>btnSearchByDate</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 31</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>رقم السند</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>م</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader9.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnShow.Name" xml:space="preserve">
+    <value>BtnShow</value>
+  </data>
+  <data name="lblAllOut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="columnHeader10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSearchByDate.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="dateTimePicker1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblAllOut.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSearchByDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 388</value>
+  </data>
+  <data name="listView1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnHeader11.Width" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtWasl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>من :</value>
+  </data>
+  <data name="&gt;&gt;lblAllOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 655</value>
+  </data>
+  <data name="BtnOutItems.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmOutComing</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 32</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Name" xml:space="preserve">
+    <value>columnHeader7</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="dateTimePicker2.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnOutItems.Text" xml:space="preserve">
+    <value>بنود المصروفات</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>البند</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnOutItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1154, 384</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 19</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnOutItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 39</value>
+  </data>
+  <data name="dateTimePicker1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>طريقة الدفع</value>
+  </data>
+  <data name="txtWasl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnShow.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="dateTimePicker2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 187</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="&gt;&gt;BtnShow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Name" xml:space="preserve">
+    <value>columnHeader8</value>
+  </data>
+  <data name="lblAllOut.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="BtnOutItems.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Name" xml:space="preserve">
+    <value>columnHeader10</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAllOut.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="columnHeader10.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Name" xml:space="preserve">
+    <value>columnHeader9</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>الضريبة</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAllOut.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtnOutItems.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 27</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="listView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnOutItems.Name" xml:space="preserve">
+    <value>BtnOutItems</value>
+  </data>
+  <data name="BtnShow.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWasl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 26</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAllOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 31</value>
+  </data>
+  <data name="columnHeader3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 35</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnOutItems.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnShow.ToolTip" xml:space="preserve">
+    <value>إضافة مصروفات</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1290, 435</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 98</value>
+  </data>
+  <data name="BtnPrint.ToolTip" xml:space="preserve">
+    <value>إضافة مصروفات</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.Name" xml:space="preserve">
+    <value>txtWasl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 353</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Name" xml:space="preserve">
+    <value>BtnPrint</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>إجمالي المصروفات :</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnOutItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 39</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Name" xml:space="preserve">
+    <value>columnHeader11</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnSearchByDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtWasl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>المبلغ الإجمالي</value>
+  </data>
+  <data name="BtnShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 385</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="btnSearchByDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 692</value>
+  </data>
+  <data name="listView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnOutItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Name" xml:space="preserve">
+    <value>columnHeader6</value>
+  </data>
+  <data name="dateTimePicker2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 96</value>
+  </data>
+  <data name="BtnShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAllOut.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>بحث برقم السند</value>
+  </data>
+  <data name="comboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTimePicker1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSearchByDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="&gt;&gt;lblAllOut.Name" xml:space="preserve">
+    <value>lblAllOut</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 83</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAllOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 393</value>
+  </data>
+  <data name="columnHeader11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 398</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 37</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-PK</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>30</value>

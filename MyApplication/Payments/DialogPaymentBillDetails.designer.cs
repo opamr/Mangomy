@@ -45,21 +45,17 @@
             this.lblBillDate = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.lblPayCash = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.LblPayBank = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnEditBill = new System.Windows.Forms.Button();
             this.LblDiscount = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblAfterVat = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.BtnPrint = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblRest = new System.Windows.Forms.Label();
             this.lblCustomerName = new System.Windows.Forms.Label();
@@ -72,20 +68,25 @@
             this.label15 = new System.Windows.Forms.Label();
             this.lblType = new System.Windows.Forms.Label();
             this.BtnPrintSmall = new System.Windows.Forms.Button();
+            this.BtnPrint = new System.Windows.Forms.Button();
+            this.btnEditBill = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.listView1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // listView1
             // 
+            resources.ApplyResources(this.listView1, "listView1");
             this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader5,
@@ -96,7 +97,6 @@
             this.columnHeader14,
             this.columnHeader1,
             this.columnHeader3});
-            resources.ApplyResources(this.listView1, "listView1");
             this.listView1.ForeColor = System.Drawing.Color.Navy;
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
@@ -145,8 +145,8 @@
             // 
             // lblBillNumber
             // 
-            this.lblBillNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblBillNumber, "lblBillNumber");
+            this.lblBillNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblBillNumber.Name = "lblBillNumber";
             // 
             // label3
@@ -158,8 +158,8 @@
             // 
             // lblBillDate
             // 
-            this.lblBillDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblBillDate, "lblBillDate");
+            this.lblBillDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblBillDate.Name = "lblBillDate";
             // 
             // label8
@@ -171,34 +171,20 @@
             // 
             // lblTime
             // 
-            this.lblTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblTime, "lblTime");
+            this.lblTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblTime.Name = "lblTime";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Name = "label10";
             // 
             // lblUser
             // 
-            this.lblUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblUser, "lblUser");
+            this.lblUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblUser.Name = "lblUser";
-            // 
-            // label12
-            // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Name = "label12";
             // 
             // lblTotal
             // 
-            this.lblTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblTotal, "lblTotal");
+            this.lblTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblTotal.Name = "lblTotal";
             // 
             // label14
@@ -210,8 +196,8 @@
             // 
             // lblPayCash
             // 
-            this.lblPayCash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblPayCash, "lblPayCash");
+            this.lblPayCash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblPayCash.Name = "lblPayCash";
             // 
             // label16
@@ -223,8 +209,8 @@
             // 
             // LblPayBank
             // 
-            this.LblPayBank.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.LblPayBank, "LblPayBank");
+            this.LblPayBank.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.LblPayBank.Name = "LblPayBank";
             // 
             // label2
@@ -234,19 +220,10 @@
             this.label2.ForeColor = System.Drawing.Color.Blue;
             this.label2.Name = "label2";
             // 
-            // btnEditBill
-            // 
-            this.btnEditBill.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            resources.ApplyResources(this.btnEditBill, "btnEditBill");
-            this.btnEditBill.ForeColor = System.Drawing.Color.Transparent;
-            this.btnEditBill.Name = "btnEditBill";
-            this.btnEditBill.UseVisualStyleBackColor = true;
-            this.btnEditBill.Click += new System.EventHandler(this.btnDeleteBill_Click);
-            // 
             // LblDiscount
             // 
-            this.LblDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.LblDiscount, "LblDiscount");
+            this.LblDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.LblDiscount.Name = "LblDiscount";
             // 
             // label5
@@ -258,8 +235,8 @@
             // 
             // lblAfterVat
             // 
-            this.lblAfterVat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblAfterVat, "lblAfterVat");
+            this.lblAfterVat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblAfterVat.Name = "lblAfterVat";
             // 
             // label7
@@ -268,15 +245,6 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.Blue;
             this.label7.Name = "label7";
-            // 
-            // BtnPrint
-            // 
-            this.BtnPrint.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
-            resources.ApplyResources(this.BtnPrint, "BtnPrint");
-            this.BtnPrint.ForeColor = System.Drawing.Color.Transparent;
-            this.BtnPrint.Name = "BtnPrint";
-            this.BtnPrint.UseVisualStyleBackColor = true;
-            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
             // 
             // label1
             // 
@@ -287,14 +255,14 @@
             // 
             // lblRest
             // 
-            this.lblRest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblRest, "lblRest");
+            this.lblRest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblRest.Name = "lblRest";
             // 
             // lblCustomerName
             // 
-            this.lblCustomerName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblCustomerName, "lblCustomerName");
+            this.lblCustomerName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblCustomerName.Name = "lblCustomerName";
             // 
             // label9
@@ -313,8 +281,8 @@
             // 
             // lblVat
             // 
-            this.lblVat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblVat, "lblVat");
+            this.lblVat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblVat.Name = "lblVat";
             // 
             // label13
@@ -326,14 +294,14 @@
             // 
             // lblTotalAfterDiscount
             // 
-            this.lblTotalAfterDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblTotalAfterDiscount, "lblTotalAfterDiscount");
+            this.lblTotalAfterDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblTotalAfterDiscount.Name = "lblTotalAfterDiscount";
             // 
             // lblMobile
             // 
-            this.lblMobile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblMobile, "lblMobile");
+            this.lblMobile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblMobile.Name = "lblMobile";
             // 
             // label15
@@ -345,24 +313,58 @@
             // 
             // lblType
             // 
-            this.lblType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.lblType, "lblType");
+            this.lblType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.lblType.Name = "lblType";
             // 
             // BtnPrintSmall
             // 
-            this.BtnPrintSmall.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
             resources.ApplyResources(this.BtnPrintSmall, "BtnPrintSmall");
+            this.BtnPrintSmall.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
             this.BtnPrintSmall.ForeColor = System.Drawing.Color.Transparent;
             this.BtnPrintSmall.Name = "BtnPrintSmall";
             this.BtnPrintSmall.UseVisualStyleBackColor = true;
             this.BtnPrintSmall.Click += new System.EventHandler(this.BtnPrintSmall_Click);
+            // 
+            // BtnPrint
+            // 
+            resources.ApplyResources(this.BtnPrint, "BtnPrint");
+            this.BtnPrint.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
+            this.BtnPrint.ForeColor = System.Drawing.Color.Transparent;
+            this.BtnPrint.Name = "BtnPrint";
+            this.BtnPrint.UseVisualStyleBackColor = true;
+            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
+            // 
+            // btnEditBill
+            // 
+            resources.ApplyResources(this.btnEditBill, "btnEditBill");
+            this.btnEditBill.BackgroundImage = global::MyApplication.Properties.Resources.EmptyBTN;
+            this.btnEditBill.ForeColor = System.Drawing.Color.Transparent;
+            this.btnEditBill.Name = "btnEditBill";
+            this.btnEditBill.UseVisualStyleBackColor = true;
+            this.btnEditBill.Click += new System.EventHandler(this.btnDeleteBill_Click);
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.ForeColor = System.Drawing.Color.Blue;
+            this.label12.Name = "label12";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.ForeColor = System.Drawing.Color.Blue;
+            this.label10.Name = "label10";
             // 
             // DialogPaymentBillDetails
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.BtnPrintSmall);
             this.Controls.Add(this.lblType);
             this.Controls.Add(this.lblMobile);
@@ -388,9 +390,7 @@
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lblUser);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.lblTime);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.lblBillDate);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lblBillNumber);
@@ -424,9 +424,7 @@
         private System.Windows.Forms.Label lblBillDate;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblTime;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lblUser;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label lblPayCash;
@@ -453,5 +451,7 @@
         private System.Windows.Forms.Label lblType;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.Button BtnPrintSmall;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
     }
 }

@@ -117,13 +117,162 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>28</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnNewOut.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtWasl.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblBeforeVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 35</value>
+  </data>
+  <data name="txtTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 37</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnNewOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="txtNotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBanks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>: ملاحظات</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="comboBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnNewOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 422</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWasl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblVat.Name" xml:space="preserve">
+    <value>lblVat</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="txtWasl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnNewOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBeforeVat.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;lblBeforeVat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dateTimePicker1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTotal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnNewOut.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>إضافة مصروفات</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>المبلغ شامل الضريبة :</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 40</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رقم السند :</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEA3gAAAAEAIAAolAMAFgAAACgAAADeAAAAAAIAAAEAIAAAAAAAAHgDABMLAAATCwAAAAAAAAAA
@@ -4038,4 +4187,535 @@
         ///////////////////////8
 </value>
   </data>
+  <data name="&gt;&gt;txtWasl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>الضريبة :</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="lblVat.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>: طريقة الدفع </value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateTimePicker1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="checkBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Name" xml:space="preserve">
+    <value>txtTotal</value>
+  </data>
+  <data name="&gt;&gt;lblBeforeVat.Name" xml:space="preserve">
+    <value>lblBeforeVat</value>
+  </data>
+  <data name="txtTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="txtWasl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>المبلغ بدون الضريبة :</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="&gt;&gt;lblVat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 178</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblBeforeVat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 304</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 23</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 19</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="txtNotes.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 107</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnNewOut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBanks.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="lblVat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="comboBanks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 369</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBanks.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="comboBanks.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBanks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 11</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.Name" xml:space="preserve">
+    <value>txtWasl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 370</value>
+  </data>
+  <data name="lblVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 35</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="comboBanks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 27</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 26</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblBeforeVat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 26</value>
+  </data>
+  <data name="comboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 114</value>
+  </data>
+  <data name="lblBeforeVat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>: التفاصيل</value>
+  </data>
+  <data name="lblVat.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;lblBeforeVat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBeforeVat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 12</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 177</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 27</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.Name" xml:space="preserve">
+    <value>txtNotes</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogAddOutComing</value>
+  </data>
+  <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="BtnNewOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBeforeVat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 243</value>
+  </data>
+  <data name="txtWasl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>: التاريخ</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 12</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.Name" xml:space="preserve">
+    <value>txtDetails</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtNotes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="comboBanks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="txtDetails.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtWasl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;lblVat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 19</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWasl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 107</value>
+  </data>
+  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="txtWasl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 422</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 114</value>
+  </data>
+  <data name="txtTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>616, 474</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="comboBanks.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 26</value>
+  </data>
+  <data name="btnDelete.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblVat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnNewOut.Name" xml:space="preserve">
+    <value>BtnNewOut</value>
+  </data>
+  <data name="&gt;&gt;comboBanks.Name" xml:space="preserve">
+    <value>comboBanks</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtTotal.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 245</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 312</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>: البند</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblBeforeVat.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-PK</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>28</value>
+  </metadata>
 </root>

@@ -812,5 +812,10 @@ namespace MyApplication
                 txtPaySpecial2.Text = (double.Parse(txtPaySpecial2AfterVat.Text) / (1 + VatPercent)).ToString("0.000");
             }
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

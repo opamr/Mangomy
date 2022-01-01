@@ -85,18 +85,6 @@
             this.comboUnits = new System.Windows.Forms.ComboBox();
             this.lblCurrentCount = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ColumnSort = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnGoodID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnIndex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnAfterVat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnProfit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnDelete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.txtBarcode = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.comboGoods = new System.Windows.Forms.ComboBox();
@@ -130,6 +118,18 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.ColumnSort = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnGoodID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnIndex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnAfterVat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnProfit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnDelete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -585,86 +585,6 @@
             this.dataGridView1.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView1_EditingControlShowing);
             this.dataGridView1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dataGridView1_KeyPress);
             // 
-            // ColumnSort
-            // 
-            resources.ApplyResources(this.ColumnSort, "ColumnSort");
-            this.ColumnSort.Name = "ColumnSort";
-            // 
-            // ColumnID
-            // 
-            resources.ApplyResources(this.ColumnID, "ColumnID");
-            this.ColumnID.Name = "ColumnID";
-            // 
-            // ColumnGoodID
-            // 
-            resources.ApplyResources(this.ColumnGoodID, "ColumnGoodID");
-            this.ColumnGoodID.Name = "ColumnGoodID";
-            // 
-            // ColumnIndex
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnIndex.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.ColumnIndex, "ColumnIndex");
-            this.ColumnIndex.Name = "ColumnIndex";
-            // 
-            // Column1
-            // 
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // ColumnUnit
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnUnit.DefaultCellStyle = dataGridViewCellStyle3;
-            resources.ApplyResources(this.ColumnUnit, "ColumnUnit");
-            this.ColumnUnit.Name = "ColumnUnit";
-            this.ColumnUnit.ReadOnly = true;
-            // 
-            // ColumnCount
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnCount.DefaultCellStyle = dataGridViewCellStyle4;
-            resources.ApplyResources(this.ColumnCount, "ColumnCount");
-            this.ColumnCount.Name = "ColumnCount";
-            // 
-            // ColumnPrice
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle5;
-            resources.ApplyResources(this.ColumnPrice, "ColumnPrice");
-            this.ColumnPrice.Name = "ColumnPrice";
-            // 
-            // ColumnTotal
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnTotal.DefaultCellStyle = dataGridViewCellStyle6;
-            resources.ApplyResources(this.ColumnTotal, "ColumnTotal");
-            this.ColumnTotal.Name = "ColumnTotal";
-            this.ColumnTotal.ReadOnly = true;
-            // 
-            // ColumnAfterVat
-            // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnAfterVat.DefaultCellStyle = dataGridViewCellStyle7;
-            resources.ApplyResources(this.ColumnAfterVat, "ColumnAfterVat");
-            this.ColumnAfterVat.Name = "ColumnAfterVat";
-            // 
-            // ColumnProfit
-            // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ColumnProfit.DefaultCellStyle = dataGridViewCellStyle8;
-            resources.ApplyResources(this.ColumnProfit, "ColumnProfit");
-            this.ColumnProfit.Name = "ColumnProfit";
-            this.ColumnProfit.ReadOnly = true;
-            // 
-            // ColumnDelete
-            // 
-            resources.ApplyResources(this.ColumnDelete, "ColumnDelete");
-            this.ColumnDelete.Name = "ColumnDelete";
-            this.ColumnDelete.Text = "حذف";
-            this.ColumnDelete.UseColumnTextForButtonValue = true;
-            // 
             // txtBarcode
             // 
             resources.ApplyResources(this.txtBarcode, "txtBarcode");
@@ -943,6 +863,86 @@
             this.label23.ForeColor = System.Drawing.Color.Blue;
             this.label23.Name = "label23";
             // 
+            // ColumnSort
+            // 
+            resources.ApplyResources(this.ColumnSort, "ColumnSort");
+            this.ColumnSort.Name = "ColumnSort";
+            // 
+            // ColumnID
+            // 
+            resources.ApplyResources(this.ColumnID, "ColumnID");
+            this.ColumnID.Name = "ColumnID";
+            // 
+            // ColumnGoodID
+            // 
+            resources.ApplyResources(this.ColumnGoodID, "ColumnGoodID");
+            this.ColumnGoodID.Name = "ColumnGoodID";
+            // 
+            // ColumnIndex
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnIndex.DefaultCellStyle = dataGridViewCellStyle2;
+            resources.ApplyResources(this.ColumnIndex, "ColumnIndex");
+            this.ColumnIndex.Name = "ColumnIndex";
+            // 
+            // Column1
+            // 
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // ColumnUnit
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnUnit.DefaultCellStyle = dataGridViewCellStyle3;
+            resources.ApplyResources(this.ColumnUnit, "ColumnUnit");
+            this.ColumnUnit.Name = "ColumnUnit";
+            this.ColumnUnit.ReadOnly = true;
+            // 
+            // ColumnCount
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnCount.DefaultCellStyle = dataGridViewCellStyle4;
+            resources.ApplyResources(this.ColumnCount, "ColumnCount");
+            this.ColumnCount.Name = "ColumnCount";
+            // 
+            // ColumnPrice
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle5;
+            resources.ApplyResources(this.ColumnPrice, "ColumnPrice");
+            this.ColumnPrice.Name = "ColumnPrice";
+            // 
+            // ColumnTotal
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnTotal.DefaultCellStyle = dataGridViewCellStyle6;
+            resources.ApplyResources(this.ColumnTotal, "ColumnTotal");
+            this.ColumnTotal.Name = "ColumnTotal";
+            this.ColumnTotal.ReadOnly = true;
+            // 
+            // ColumnAfterVat
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnAfterVat.DefaultCellStyle = dataGridViewCellStyle7;
+            resources.ApplyResources(this.ColumnAfterVat, "ColumnAfterVat");
+            this.ColumnAfterVat.Name = "ColumnAfterVat";
+            // 
+            // ColumnProfit
+            // 
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ColumnProfit.DefaultCellStyle = dataGridViewCellStyle8;
+            resources.ApplyResources(this.ColumnProfit, "ColumnProfit");
+            this.ColumnProfit.Name = "ColumnProfit";
+            this.ColumnProfit.ReadOnly = true;
+            // 
+            // ColumnDelete
+            // 
+            resources.ApplyResources(this.ColumnDelete, "ColumnDelete");
+            this.ColumnDelete.Name = "ColumnDelete";
+            this.ColumnDelete.Text = "Delete";
+            this.ColumnDelete.UseColumnTextForButtonValue = true;
+            // 
             // DialogNewOrder
             // 
             resources.ApplyResources(this, "$this");
@@ -1041,18 +1041,6 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button BtnPrintKashir;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnSort;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnGoodID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIndex;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnUnit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnPrice;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTotal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnAfterVat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProfit;
-        private System.Windows.Forms.DataGridViewButtonColumn ColumnDelete;
         private System.Windows.Forms.TextBox txtPayAfterVat;
         private System.Windows.Forms.Label lblGoodAfterVat;
         private System.Windows.Forms.Label label26;
@@ -1065,5 +1053,17 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnSort;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnGoodID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIndex;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnUnit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTotal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnAfterVat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProfit;
+        private System.Windows.Forms.DataGridViewButtonColumn ColumnDelete;
     }
 }

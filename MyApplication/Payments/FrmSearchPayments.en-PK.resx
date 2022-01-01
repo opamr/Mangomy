@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTotalBank.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblTotalBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1204, 605</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTotalBank.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1108, 609</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Visa Total :</value>
+  </data>
+  <data name="lblTotalKash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotalKash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1204, 567</value>
+  </data>
+  <data name="lblTotalKash.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1108, 571</value>
+  </data>
+  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Cash Total :</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 5</value>
+  </data>
+  <data name="groupBox4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Search by Name</value>
+  </data>
+  <data name="lblBackTotal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBackTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 617</value>
+  </data>
+  <data name="lblBackTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 621</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="lblTotal2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotal2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 660</value>
+  </data>
+  <data name="lblTotal2.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 660</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Tax :</value>
+  </data>
+  <data name="lblBacksVat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBacksVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 621</value>
+  </data>
+  <data name="lblBacksVat.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="lblPaymentsTotal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPaymentsTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 579</value>
+  </data>
+  <data name="lblPaymentsTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 583</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="lblPaymentsVat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPaymentsVat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 583</value>
+  </data>
+  <data name="lblPaymentsVat.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 583</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Tax :</value>
+  </data>
+  <data name="lblPayments.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPayments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 583</value>
+  </data>
+  <data name="lblPayments.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 583</value>
+  </data>
+  <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 19</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Sales without Tax :</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 621</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Tax :</value>
+  </data>
+  <data name="BtnPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1198, 639</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="BtnPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 4</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Search by Mobile</value>
+  </data>
+  <data name="lblTotal3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotal3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 656</value>
+  </data>
+  <data name="lblTotal3.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 660</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Column11.HeaderText" xml:space="preserve">
+    <value>Invoice Type</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Invoice No</value>
+  </data>
+  <data name="Column13.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Column10.HeaderText" xml:space="preserve">
+    <value>Incloud Tax</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Paid Cash</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Paid Visa</value>
+  </data>
+  <data name="Column12.HeaderText" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 85</value>
+  </data>
+  <data name="dataGridView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 4</value>
+  </data>
+  <data name="groupBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Search by Invoice No</value>
+  </data>
+  <data name="ComboUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 34</value>
+  </data>
+  <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 38</value>
+  </data>
+  <data name="checkBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Select User :</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>To :</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 38</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>From :</value>
+  </data>
+  <data name="dtpto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 35</value>
+  </data>
+  <data name="dtpto.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnSearchByDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSearchByDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 29</value>
+  </data>
+  <data name="BtnSearchByDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="BtnSearchByDay.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="dtpfrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 35</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 4</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Search by Date</value>
+  </data>
+  <data name="lblBacks.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBacks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 621</value>
+  </data>
+  <data name="lblBacks.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 621</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 19</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Refund without Tax :</value>
+  </data>
+  <data name="lblTotal1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotal1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 659</value>
+  </data>
+  <data name="lblTotal1.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 660</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Net :</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+</root>

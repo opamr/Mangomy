@@ -17,8 +17,6 @@ namespace MyApplication
     {      
         public FrmMain()
         {
-            Thread.CurrentThread.CurrentUICulture =
-      System.Globalization.CultureInfo.GetCultureInfo("en-PK");
             InitializeComponent();
         }
         private void FrmMain_Load(object sender, EventArgs e)
@@ -553,6 +551,23 @@ namespace MyApplication
 
             DialogAddOutComing obj = new DialogAddOutComing(0);
             obj.ShowDialog();
+        }
+
+        private void eNLanguageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            switch (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag)
+            {
+                case "en-US":
+                    Thread.CurrentThread.CurrentUICulture =
+       System.Globalization.CultureInfo.GetCultureInfo("en-PK");
+                    break;
+                case "en-PK":
+                    Thread.CurrentThread.CurrentUICulture =
+       System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                    break;
+            }
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

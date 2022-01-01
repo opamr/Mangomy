@@ -50,310 +50,187 @@
             this.dateTimePickerIdentity = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.BtnAdToArchive = new System.Windows.Forms.Button();
+            this.lblHigrDate = new System.Windows.Forms.Label();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
-            this.lblHigrDate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtSpecial
             // 
+            resources.ApplyResources(this.txtSpecial, "txtSpecial");
             this.txtSpecial.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtSpecial.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtSpecial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSpecial.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSpecial.Location = new System.Drawing.Point(217, 112);
             this.txtSpecial.Name = "txtSpecial";
-            this.txtSpecial.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtSpecial.Size = new System.Drawing.Size(154, 26);
-            this.txtSpecial.TabIndex = 4;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            resources.ApplyResources(this.label8, "label8");
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Blue;
-            this.label8.Location = new System.Drawing.Point(313, 90);
             this.label8.Name = "label8";
-            this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label8.Size = new System.Drawing.Size(58, 19);
-            this.label8.TabIndex = 126;
-            this.label8.Text = "التخصص";
             // 
             // txtNationality
             // 
+            resources.ApplyResources(this.txtNationality, "txtNationality");
             this.txtNationality.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtNationality.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtNationality.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNationality.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNationality.Location = new System.Drawing.Point(12, 112);
             this.txtNationality.Name = "txtNationality";
-            this.txtNationality.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtNationality.Size = new System.Drawing.Size(147, 26);
-            this.txtNationality.TabIndex = 5;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
+            resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(109, 90);
             this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(50, 19);
-            this.label6.TabIndex = 124;
-            this.label6.Text = "الجنسية";
             // 
             // dateTimePickerStartWork
             // 
-            this.dateTimePickerStartWork.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerStartWork.Location = new System.Drawing.Point(12, 40);
+            resources.ApplyResources(this.dateTimePickerStartWork, "dateTimePickerStartWork");
             this.dateTimePickerStartWork.Name = "dateTimePickerStartWork";
-            this.dateTimePickerStartWork.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dateTimePickerStartWork.RightToLeftLayout = true;
-            this.dateTimePickerStartWork.Size = new System.Drawing.Size(147, 26);
-            this.dateTimePickerStartWork.TabIndex = 2;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            resources.ApplyResources(this.label7, "label7");
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(78, 18);
             this.label7.Name = "label7";
-            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label7.Size = new System.Drawing.Size(85, 19);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "تاريخ التعيين :";
             // 
             // txtHouse
             // 
+            resources.ApplyResources(this.txtHouse, "txtHouse");
             this.txtHouse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtHouse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtHouse.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHouse.Location = new System.Drawing.Point(434, 198);
             this.txtHouse.Name = "txtHouse";
-            this.txtHouse.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtHouse.Size = new System.Drawing.Size(137, 26);
-            this.txtHouse.TabIndex = 7;
-            this.txtHouse.Text = "0";
-            this.txtHouse.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtHouse.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalary_KeyPress);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
+            resources.ApplyResources(this.label5, "label5");
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(509, 166);
             this.label5.Name = "label5";
-            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label5.Size = new System.Drawing.Size(62, 19);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "بدل السكن";
             // 
             // txtSalary
             // 
+            resources.ApplyResources(this.txtSalary, "txtSalary");
             this.txtSalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtSalary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSalary.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalary.Location = new System.Drawing.Point(586, 198);
             this.txtSalary.Name = "txtSalary";
-            this.txtSalary.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtSalary.Size = new System.Drawing.Size(108, 26);
-            this.txtSalary.TabIndex = 6;
-            this.txtSalary.Text = "0";
-            this.txtSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSalary.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalary_KeyPress);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(652, 175);
             this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(42, 19);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "الراتب";
             // 
             // txtMobile
             // 
+            resources.ApplyResources(this.txtMobile, "txtMobile");
             this.txtMobile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtMobile.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMobile.Location = new System.Drawing.Point(217, 40);
             this.txtMobile.Name = "txtMobile";
-            this.txtMobile.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtMobile.Size = new System.Drawing.Size(154, 26);
-            this.txtMobile.TabIndex = 1;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(319, 18);
             this.label4.Name = "label4";
-            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(52, 19);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "الجوال :";
             // 
             // txtIdentity
             // 
+            resources.ApplyResources(this.txtIdentity, "txtIdentity");
             this.txtIdentity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdentity.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdentity.Location = new System.Drawing.Point(213, 198);
             this.txtIdentity.Name = "txtIdentity";
-            this.txtIdentity.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtIdentity.Size = new System.Drawing.Size(154, 26);
-            this.txtIdentity.TabIndex = 8;
             // 
             // txtName
             // 
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(434, 40);
             this.txtName.Name = "txtName";
-            this.txtName.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtName.Size = new System.Drawing.Size(260, 26);
-            this.txtName.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(639, 18);
             this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(55, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "الإســـم :";
             // 
             // txtAddress
             // 
+            resources.ApplyResources(this.txtAddress, "txtAddress");
             this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAddress.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(434, 112);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtAddress.Size = new System.Drawing.Size(260, 26);
-            this.txtAddress.TabIndex = 3;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            resources.ApplyResources(this.label10, "label10");
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Location = new System.Drawing.Point(606, 89);
             this.label10.Name = "label10";
-            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label10.Size = new System.Drawing.Size(88, 19);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "عنوان السكن :";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
+            resources.ApplyResources(this.label11, "label11");
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(70, 176);
             this.label11.Name = "label11";
-            this.label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label11.Size = new System.Drawing.Size(89, 19);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "تاريخ الإنتهاء :";
             // 
             // dateTimePickerIdentity
             // 
-            this.dateTimePickerIdentity.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerIdentity.Location = new System.Drawing.Point(8, 198);
+            resources.ApplyResources(this.dateTimePickerIdentity, "dateTimePickerIdentity");
             this.dateTimePickerIdentity.Name = "dateTimePickerIdentity";
-            this.dateTimePickerIdentity.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dateTimePickerIdentity.RightToLeftLayout = true;
-            this.dateTimePickerIdentity.Size = new System.Drawing.Size(147, 26);
-            this.dateTimePickerIdentity.TabIndex = 9;
             this.dateTimePickerIdentity.ValueChanged += new System.EventHandler(this.dateTimePickerIdentity_ValueChanged);
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
+            resources.ApplyResources(this.label12, "label12");
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(294, 176);
             this.label12.Name = "label12";
-            this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label12.Size = new System.Drawing.Size(73, 19);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "رقم الهوية :";
             // 
             // BtnAdToArchive
             // 
+            resources.ApplyResources(this.BtnAdToArchive, "BtnAdToArchive");
             this.BtnAdToArchive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnAdToArchive.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAdToArchive.ForeColor = System.Drawing.Color.White;
-            this.BtnAdToArchive.Location = new System.Drawing.Point(213, 301);
             this.BtnAdToArchive.Name = "BtnAdToArchive";
-            this.BtnAdToArchive.Size = new System.Drawing.Size(161, 40);
-            this.BtnAdToArchive.TabIndex = 129;
-            this.BtnAdToArchive.Text = "حفظ في الأرشيف";
             this.BtnAdToArchive.UseVisualStyleBackColor = false;
-            this.BtnAdToArchive.Visible = false;
             this.BtnAdToArchive.Click += new System.EventHandler(this.BtnAdToArchive_Click);
+            // 
+            // lblHigrDate
+            // 
+            resources.ApplyResources(this.lblHigrDate, "lblHigrDate");
+            this.lblHigrDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.lblHigrDate.ForeColor = System.Drawing.Color.Blue;
+            this.lblHigrDate.Name = "lblHigrDate";
             // 
             // BtnDelete
             // 
+            resources.ApplyResources(this.BtnDelete, "BtnDelete");
             this.BtnDelete.BackgroundImage = global::MyApplication.Properties.Resources.Delete;
             this.BtnDelete.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.BtnDelete.Location = new System.Drawing.Point(560, 301);
             this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(130, 40);
-            this.BtnDelete.TabIndex = 15;
             this.BtnDelete.UseVisualStyleBackColor = true;
-            this.BtnDelete.Visible = false;
             this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // BtnSave
             // 
+            resources.ApplyResources(this.BtnSave, "BtnSave");
             this.BtnSave.BackgroundImage = global::MyApplication.Properties.Resources.Save;
             this.BtnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.BtnSave.Location = new System.Drawing.Point(8, 301);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(130, 40);
-            this.BtnSave.TabIndex = 10;
             this.BtnSave.UseVisualStyleBackColor = true;
             this.BtnSave.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
-            // lblHigrDate
-            // 
-            this.lblHigrDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.lblHigrDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHigrDate.ForeColor = System.Drawing.Color.Blue;
-            this.lblHigrDate.Location = new System.Drawing.Point(13, 227);
-            this.lblHigrDate.Name = "lblHigrDate";
-            this.lblHigrDate.Size = new System.Drawing.Size(142, 26);
-            this.lblHigrDate.TabIndex = 136;
-            this.lblHigrDate.Text = "Double Click";
-            this.lblHigrDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // DialogAddEmploee
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(709, 376);
             this.Controls.Add(this.lblHigrDate);
             this.Controls.Add(this.BtnAdToArchive);
             this.Controls.Add(this.txtSpecial);
@@ -378,12 +255,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtSalary);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DialogAddEmploee";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "إضافة موظف";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DialogAddEmploee_FormClosed);
             this.Load += new System.EventHandler(this.DialogAddEmploee_Load);
             this.ResumeLayout(false);
